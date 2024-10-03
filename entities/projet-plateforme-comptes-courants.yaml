@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: plateforme-comptes-courants
+  description: Projet de gestion des comptes courants des clients.
+spec:
+  type: service
+  owner: team-comptes-courants
+  system: comptes-courants
+  lifecycle: production

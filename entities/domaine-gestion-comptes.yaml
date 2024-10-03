@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: gestion-comptes
+  description: Domaine dédié à la gestion des comptes bancaires des clients.
+spec:
+  owner: team-gestion-comptes

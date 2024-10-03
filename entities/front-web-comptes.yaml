@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: front-web-comptes
+  description: Front-end web pour la gestion des comptes courants des clients.
+spec:
+  type: frontend
+  owner: team-frontend
+  system: comptes-courants
+  lifecycle: production

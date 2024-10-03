@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: comptes-courants
+  description: Sous-domaine pour la gestion des comptes courants des clients.
+spec:
+  owner: team-comptes-courants
+  domain: gestion-comptes

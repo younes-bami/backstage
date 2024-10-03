@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: batch-reconciliation
+  description: Batch pour réconciliation des transactions à la fin de la journée.
+spec:
+  type: batch
+  owner: team-ops
+  system: comptes-courants
+  lifecycle: production

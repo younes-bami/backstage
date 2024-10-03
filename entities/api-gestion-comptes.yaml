@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-gestion-comptes
+  description: API pour la gestion des opérations sur les comptes courants.
+spec:
+  type: api
+  owner: team-api-comptes
+  system: comptes-courants
+  lifecycle: production
+  providesApis:
+    - gestion-comptes-api

@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-transaction
+  description: Service de traitement des transactions bancaires pour les comptes courants.
+spec:
+  type: service
+  owner: team-transaction
+  system: comptes-courants
+  lifecycle: production
