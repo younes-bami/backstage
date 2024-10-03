@@ -4,9 +4,14 @@ metadata:
   name: company
   namespace: default
   description: La compagnie qui possède plusieurs équipes.
+  annotations:
+    backstage.io/managed-by-location: url:https://github.com/younes-bami/backstage/blob/master/entities/company.yaml
+    backstage.io/managed-by-origin-location: url:https://github.com/younes-bami/backstage/blob/master/entities/company.yaml
 spec:
   type: organization
+  profile:
+    displayName: Company Name
   children:
-    - team-developpement
-    - team-api-comptes
+    - group:default/team-developpement
+    - group:default/team-api-comptes
   members: []
