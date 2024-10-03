@@ -41,3 +41,16 @@ spec:
   members:
     - user:charlie
     - user:dave
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-api-comptes
+  namespace: default
+  description: L'équipe responsable de l'API de gestion des comptes.
+spec:
+  type: team
+  parent: company
+  members:
+    - user:john-doe
+    - user:jane-doe
