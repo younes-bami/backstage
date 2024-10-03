@@ -54,3 +54,17 @@ spec:
   members:
     - user:john-doe
     - user:jane-doe
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-comptes-courants
+  namespace: default
+  description: L'équipe responsable de la gestion des comptes courants.
+spec:
+  type: team
+  parent: team-api-comptes
+  members:
+    - user:john-doe
+    - user:jane-doe
