@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: entities
+  description: Toutes les entités du catalogue Backstage pour la banque.
+spec:
+  type: url
+  targets:
+    - ./domaine-gestion-comptes.yaml
+    - ./sous-domaine-comptes-courants.yaml
+    - ./projet-plateforme-comptes-courants.yaml
+    - ./api-gestion-comptes.yaml
+    - ./service-transaction.yaml
+    - ./batch-reconciliation.yaml
+    - ./front-web-comptes.yaml
