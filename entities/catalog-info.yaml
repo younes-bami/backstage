@@ -116,3 +116,30 @@ spec:
   target: https://raw.githubusercontent.com/younes-bami/backstage/master/entities/users.yaml
   rules:
     - allow: [User]
+
+
+---
+# catalog-info.yaml (fichier principal)
+
+# Ajout des équipes backend et frontend
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: team-backend
+spec:
+  type: url
+  target: https://raw.githubusercontent.com/younes-bami/backstage/master/entities/team-backend-location.yaml
+  rules:
+    - allow: [Group]
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: team-frontend
+spec:
+  type: url
+  target: https://raw.githubusercontent.com/younes-bami/backstage/master/entities/team-frontend-location.yaml
+  rules:
+    - allow: [Group]
