@@ -25,9 +25,11 @@ metadata:
 spec:
   type: team
   parent: team-developpement
+  children: []
   members:
     - user:alice
     - user:bob
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -38,9 +40,11 @@ metadata:
 spec:
   type: team
   parent: team-developpement
+  children: []
   members:
     - user:charlie
     - user:dave
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -51,6 +55,8 @@ metadata:
 spec:
   type: team
   parent: company
+  children: []
   members:
     - user:john-doe
     - user:jane-doe
+
