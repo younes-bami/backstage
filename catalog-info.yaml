@@ -6,10 +6,10 @@ metadata:
 spec:
   type: url
   targets:
-    - ./domaine-gestion-comptes.yaml
-    - ./sous-domaine-comptes-courants.yaml
-    - ./projet-plateforme-comptes-courants.yaml
-    - ./api-gestion-comptes.yaml
-    - ./service-transaction.yaml
-    - ./batch-reconciliation.yaml
-    - ./front-web-comptes.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/domaine-gestion-comptes.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/sous-domaine-comptes-courants.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/projet-plateforme-comptes-courants.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/api-gestion-comptes.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/service-transaction.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/batch-reconciliation.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/front-web-comptes.yaml
