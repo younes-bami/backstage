@@ -25,11 +25,10 @@ metadata:
 spec:
   type: team
   parent: team-developpement
-  children: []
+  children: []  # Ajout de la propriété children
   members:
     - user:alice
     - user:bob
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -40,23 +39,21 @@ metadata:
 spec:
   type: team
   parent: team-developpement
-  children: []
+  children: []  # Ajout de la propriété children
   members:
     - user:charlie
     - user:dave
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: team-api-comptes
-  namespace: default
   description: L'équipe responsable de l'API de gestion des comptes.
+  namespace: default
 spec:
   type: team
   parent: company
-  children: []
+  children: []  # Ajout de la propriété children
   members:
     - user:john-doe
     - user:jane-doe
-
