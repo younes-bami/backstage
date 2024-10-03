@@ -92,3 +92,27 @@ spec:
   target: https://raw.githubusercontent.com/younes-bami/backstage/master/entities/teams.yaml
   rules:
     - allow: [Group]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: company
+  description: Entité de l'organisation "company".
+spec:
+  type: url
+  target: https://raw.githubusercontent.com/younes-bami/backstage/master/entities/company.yaml
+  rules:
+    - allow: [Group]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: users
+  description: Liste des utilisateurs pour le projet.
+spec:
+  type: url
+  target: https://raw.githubusercontent.com/younes-bami/backstage/master/entities/users.yaml
+  rules:
+    - allow: [User]

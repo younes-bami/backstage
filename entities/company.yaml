@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: company
+  namespace: default
+  description: La compagnie qui possède plusieurs équipes.
+spec:
+  type: organization
+  children:
+    - team-developpement
+    - team-api-comptes
+  members: []
