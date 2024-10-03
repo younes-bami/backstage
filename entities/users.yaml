@@ -30,7 +30,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: charlie
+  name: charlies
   namespace: default
 spec:
   profile:
