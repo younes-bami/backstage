@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: gestion-comptes-api
+  namespace: default
+  description: API de gestion des comptes.
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-api-comptes
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Gestion Comptes API
+      version: 1.0.0
+    paths:
+      /comptes:
+        get:
+          summary: Récupérer les comptes
+          responses:
+            '200':
+              description: Liste des comptes

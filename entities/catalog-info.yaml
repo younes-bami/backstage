@@ -118,3 +118,14 @@ spec:
     - allow: [User]
 
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: apis
+  description: Collection des APIs pour le projet.
+spec:
+  type: url
+  target: https://raw.githubusercontent.com/younes-bami/backstage/master/entities/apis.yaml
+  rules:
+    - allow: [API]
