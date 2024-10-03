@@ -1,27 +1,79 @@
+# users.yaml
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: john-doe
   namespace: default
-  description: Développeur au sein de l'équipe.
 spec:
   profile:
     displayName: John Doe
     email: john.doe@example.com
-  memberOf:
-    - team-developpement
-    - team-api-comptes
+  memberOf: [team-api-comptes]
+
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: jane-doe
   namespace: default
-  description: Développeuse au sein de l'équipe.
 spec:
   profile:
     displayName: Jane Doe
     email: jane.doe@example.com
-  memberOf:
-    - team-developpement
-    - team-api-comptes
+  memberOf: [team-api-comptes]
+
+---
+
+# Ajout des utilisateurs backend
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: charlie
+  namespace: default
+spec:
+  profile:
+    displayName: Charlie
+    email: charlie@example.com
+  memberOf: [team-backend]
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: dave
+  namespace: default
+spec:
+  profile:
+    displayName: Dave
+    email: dave@example.com
+  memberOf: [team-backend]
+
+---
+
+# Ajout des utilisateurs frontend
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alice
+  namespace: default
+spec:
+  profile:
+    displayName: Alice
+    email: alice@example.com
+  memberOf: [team-frontend]
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bob
+  namespace: default
+spec:
+  profile:
+    displayName: Bob
+    email: bob@example.com
+  memberOf: [team-frontend]
