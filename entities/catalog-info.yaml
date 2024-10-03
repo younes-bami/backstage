@@ -13,3 +13,8 @@ spec:
     - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/service-transaction.yaml
     - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/batch-reconciliation.yaml
     - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/front-web-comptes.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/master/entities/teams.yaml
+
+
+
+

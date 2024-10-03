@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-developpement
+  description: L'équipe de développement.
+  namespace: default
+  annotations:
+    example.com/attribute: value
+spec:
+  type: team
+  parent: company
+  children:
+    - team-frontend
+    - team-backend
+  members:
+    - user:john-doe
+    - user:jane-doe
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-frontend
+  description: L'équipe frontend responsable du développement de l'interface utilisateur.
+  namespace: default
+spec:
+  type: team
+  parent: team-developpement
+  members:
+    - user:alice
+    - user:bob
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-backend
+  description: L'équipe backend responsable des API et des services.
+  namespace: default
+spec:
+  type: team
+  parent: team-developpement
+  members:
+    - user:charlie
+    - user:dave
