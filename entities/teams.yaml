@@ -12,9 +12,6 @@ spec:
   children:
     - team-frontend
     - team-backend
-  members:
-    - user:john-doe
-    - user:jane-doe
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -27,8 +24,8 @@ spec:
   parent: team-developpement
   children: []  # Ajout de la propriété children
   members:
-    - user:alice
-    - user:bob
+    - user:default/alice  # Ajout du namespace
+    - user:default/bob  # Ajout du namespace
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -41,8 +38,8 @@ spec:
   parent: team-developpement
   children: []  # Ajout de la propriété children
   members:
-    - user:charlie
-    - user:dave
+    - user:default/charlie  # Ajout du namespace
+    - user:default/dave  # Ajout du namespace
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
