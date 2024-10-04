@@ -1,0 +1,248 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bel-batch-step1-importfichiers
+  title: bel-batch-step1-importfichiers
+  description: Batch de provisionnement des contrats, étape des copie des extractions GCM dans des tables temporaires
+  annotations:
+    gitlab.com/project-slug: 'EBK/BEL'
+    sonarqube.org/project-key: ma.awb.ebk.bel:bel-home
+  tags:
+    - java
+    - springbatch
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/dashboard?id=ma.awb.ebk.bel:bel-home
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: batch
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  dependsOn:
+    - resource:default/ebk-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bel-batch-step2-importbdd
+  title: bel-batch-step2-importbdd
+  description: Batch de provisionnement des contrats, étape vérification cohérence des données contrats
+  annotations:
+    gitlab.com/project-slug: 'EBK/BEL'
+    sonarqube.org/project-key: ma.awb.ebk.bel:bel-home
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+    - springbatch
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/dashboard?id=ma.awb.ebk.bel:bel-home
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: batch
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  dependsOn:
+    - resource:default/ebk-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bel-batch-step3-provisionning
+  title: bel-batch-step3-provisionning
+  description: Batch de provisionnement des contrats, étape création des utilisateurs dans le ldap et notification des clients de la création de leur compte
+  annotations:
+    gitlab.com/project-slug: 'EBK/BEL'
+    sonarqube.org/project-key: ma.awb.ebk.bel:bel-home
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+    - springbatch
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/dashboard?id=ma.awb.ebk.bel:bel-home
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: batch
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  dependsOn:
+    - resource:default/ebk-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bel-batch-reconciliation-paiementfacture
+  title: bel-batch-reconciliation-paiementfacture
+  description: Batch de réconciliation de paiement de facture, il permet de faire le raprochement entre les paiements validés sur le SI CMI et le SI AWB, il s'occupe aussi d'envoie hots des paiement validés pour comptabilisation
+  annotations:
+    gitlab.com/project-slug: 'EBK/BEL'
+    sonarqube.org/project-key: ma.awb.ebk.bel:bel-home
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+    - springbatch
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/dashboard?id=ma.awb.ebk.bel:bel-home
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: batch
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  dependsOn:
+    - resource:default/ebk-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bel-batch-singlemove
+  title: bel-batch-singlemove
+  description: Batch appelé Single Move, il regroupe un certain nombre de traitements nécessaires au fonctionnement du SelfCare (importe des cartes, des comptes, envoie de données de facturation, envoie des commandes chéquier...)
+  annotations:
+    gitlab.com/project-slug: 'EBK/BEL'
+    sonarqube.org/project-key: ma.awb.ebk.bel:bel-home
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+    - springbatch
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/dashboard?id=ma.awb.ebk.bel:bel-home
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: batch
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  dependsOn:
+    - resource:default/ebk-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bel-batch-dwh
+  title: bel-batch-dwh
+  description: Batch qui envoie certaines données SelfCare au data warehouse pour des besoins de BI
+  annotations:
+    gitlab.com/project-slug: 'EBK/BEL'
+    sonarqube.org/project-key: ma.awb.ebk.bel:bel-home
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+    - springbatch
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/dashboard?id=ma.awb.ebk.bel:bel-home
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: batch
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  dependsOn:
+    - resource:default/ebk-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bel-batch-datalake
+  title: bel-batch-datalake
+  description: Batch qui envoie certaines données SelfCare au data lake
+  annotations:
+    gitlab.com/project-slug: 'EBK/BEL'
+    sonarqube.org/project-key: ma.awb.ebk.bel:bel-home
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+    - springbatch
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/dashboard?id=ma.awb.ebk.bel:bel-home
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: batch
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  dependsOn:
+    - resource:default/ebk-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bel-batch-marketing-analytics
+  title: bel-batch-marketing-analytics
+  description: Batch qui envoie des données de statistiques d'usage des fonctionnalité du SelfCare aux équipes Marketing
+  annotations:
+    gitlab.com/project-slug: 'EBK/BEL'
+    sonarqube.org/project-key: ma.awb.ebk.bel:bel-home
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+    - springbatch
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/dashboard?id=ma.awb.ebk.bel:bel-home
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: batch
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  dependsOn:
+    - resource:default/ebk-db
+

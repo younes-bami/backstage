@@ -1,0 +1,153 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: keycloak-externe
+  description: OIDC Provider externe
+spec:
+  type: service
+  owner: cib-tribe
+  lifecycle: production
+  system: cib-portal-system
+  providesApis:
+    - api-keycloak-authentication
+  dependsOn:
+    - resource:default/ebk-externe-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-ee
+  description: Service Spring Boot API EE
+  links:
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: service
+  owner: cib-tribe
+  lifecycle: production
+  system: cib-portal-system
+  providesApis:
+    - api-ee
+  consumesApis:
+    - api-atc
+    - api-multi-canal
+    - api-instapay
+    - api-cmi
+  dependsOn:
+    - resource:default/ebk-db
+    - resource:default/kafka
+    - resource:default/mq-series
+    - resource:default/mq-series
+    - component:default/keycloak-externe
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-atc
+  description: Service Spring Boot
+  links:
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: service
+  owner: cib-tribe
+  lifecycle: production
+  system: cib-portal-system
+  providesApis:
+    - api-atc
+  consumesApis:
+    - api-cmi
+    - api-multi-canal
+    - api-instapay
+    - api-position
+  dependsOn:
+    - resource:default/webedi-db
+    - resource:default/kafka
+    - resource:default/sterling
+    - resource:default/mq-series
+    - component:default/keycloak-externe
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-mto
+  description: Service Spring Boot
+  links:
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: service
+  owner: cib-tribe
+  lifecycle: production
+  system: cib-portal-system
+  providesApis:
+    - api-mto
+  consumesApis:
+    - api-siron
+    - api-position
+  dependsOn:
+    - resource:default/ebk-db
+    - resource:default/kafka
+    - resource:default/mq-series
+    - component:default/keycloak-externe
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: zull
+  description: Service Spring Boot
+  links:
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: service
+  owner: cib-tribe
+  lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eureka
+  description: Service Spring Boot
+  links:
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: service
+  owner: cib-tribe
+  lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: config-server
+  description: Service Spring Boot
+  links:
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: service
+  owner: cib-tribe
+  lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: httpd-server
+  description: Service httpd du serveur apache hébérgeant les frontend du projet CIB
+  links:
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: service
+  owner: cib-tribe
+  lifecycle: production
+

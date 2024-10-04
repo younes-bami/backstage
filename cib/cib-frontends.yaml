@@ -1,0 +1,99 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mto-portal
+  title: Portal API MTO
+  description: Web portal for Money Transfer Operator API
+  annotations:
+    gitlab.com/project-slug: 'EBK/frontend/mto-portal'
+    sonarqube.org/project-key: ma.awb.ebk.bel:digital
+  tags:
+    - react
+    - fronted
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/code?id=ma.awb%3Amicroarch
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK_VIEW/job/EBK_Api/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  consumesApis:
+    - api-mto
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cib-web-app
+  title: CIB Portal Webapp
+  description: Portail Entreprise pour le Ebanking en self service
+  annotations:
+    gitlab.com/project-slug: 'EBK/frontend/digital-entreprise'
+    sonarqube.org/project-key: ma.awb.ebk.bel:digital
+  tags:
+    - react
+    - fronted
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/code?id=ma.awb%3Amicroarch
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK_VIEW/job/EBK_Api/
+      title: Pipeline Jenkins
+      icon: dashboard
+    - url: https://172.29.8.144/
+      title: APM
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  consumesApis:
+    - api-ee
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cib-ios-app
+  title: CIB IOS App
+  description: Application Mobile IOS Entreprise pour le Ebanking en self service
+  annotations:
+    gitlab.com/project-slug: 'EBK/frontend/digital-entreprise'
+  tags:
+    - mobile
+    - ios
+spec:
+  type: mobile-app
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  consumesApis:
+    - api-ee
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cib-android-app
+  title: CIB Android App
+  description: Application Mobile Android Entreprise pour le Ebanking en self service
+  annotations:
+    gitlab.com/project-slug: 'EBK/frontend/digital-entreprise'
+  tags:
+    - mobile
+    - ios
+spec:
+  type: mobile-app
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  consumesApis:
+    - api-ee

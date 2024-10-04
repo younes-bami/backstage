@@ -1,0 +1,81 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-ee
+  title: API Enterprise Banking
+  description: Enterprise Banking Self Service API
+  annotations:
+    gitlab.com/project-slug: 'EBK/BEL-micro-arch'
+    sonarqube.org/project-key: ma.awb.ebk.bel:microArch
+  tags:
+    - selfcare
+    - rest
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/code?id=ma.awb%3Amicroarch
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK_VIEW/job/EBK_Api/
+      title: Pipeline Jenkins
+      icon: dashboard
+spec:
+  type: openapi
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  definition:
+    $text: https://api-recette.attijariwafa.net:9443/api/v2/api-docs?group=api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-mto
+  title: API Money Transfer Operator
+  description: Enterprise API exposed for office exchange partners
+  annotations:
+    gitlab.com/project-slug: 'BEL-micro-arch'
+    sonarqube.org/project-key: ma.awb.ebk.bel:microArch
+  tags:
+    - selfcare
+    - rest
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/code?id=ma.awb%3Amicroarch
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK_VIEW/job/EBK_Api/
+      title: Pipeline Jenkins
+      icon: dashboard
+spec:
+  type: openapi
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  definition:
+    $text: https://api-recette.attijariwafa.net:9443/mto/v2/api-docs?group=api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-atc
+  title: API Attijari Connect
+  description: L'API ATC
+  annotations:
+    gitlab.com/project-slug: 'BEL-micro-arch'
+    sonarqube.org/project-key: ma.awb.ebk.bel:microArch
+  tags:
+    - selfcare
+    - rest
+  links:
+    - url: http://sonar.udd.attijariwafa.net:9000/code?id=ma.awb%3Amicroarch
+      title: Sonar
+      icon: dashboard
+    - url: https://jenkins.udd.attijariwafa.net/view/EBK_VIEW/job/EBK_Api/
+      title: Pipeline Jenkins
+      icon: dashboard
+spec:
+  type: openapi
+  lifecycle: production
+  owner: cib-tribe
+  system: cib-portal-system
+  definition:
+    $text: https://172.29.5.214:8443/v2/api-docs?group=api

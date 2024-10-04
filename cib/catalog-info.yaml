@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: CIB-catalog
+  description: collection of all CIB services and ressources
+spec:
+  targets:
+    - ./cib-ressources.yaml
+    - ./cib-services.yaml
+    - ./cib-frontends.yaml
+    - ./cib-apis.yaml
+    - ./cib-batchs.yaml

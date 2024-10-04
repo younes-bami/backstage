@@ -1,0 +1,79 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: ebk-db
+  description: EBK Database
+  tags:
+    - oracle
+    - db
+spec:
+  type: database
+  owner: cib-tribe
+  system: cib
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: webedi-db
+  description: Attijari Connect Database
+  tags:
+    - oracle
+    - db
+spec:
+  type: database
+  owner: cib-tribe
+  system: cib
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: redis
+  description: Cluster redis utilisé comme cache par les APIs CIB
+  tags:
+    - redis
+    - cache
+spec:
+  type: cache
+  owner: cib-tribe
+  system: cib
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: kafka
+  description: Portail CIB utilise Kafka pour des échanges des évenements avec d'autres systemes tiers de la banque (la vente, borj opération...)
+  tags:
+    - messaging
+    - kafka
+    - transverse
+spec:
+  type: messaging
+  owner: cib-tribe
+  system: cib
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: mq-series
+  description: Portail CIB utilise MQ Series notamment pour la communication avec la position
+  tags:
+    - messaging
+    - mq
+spec:
+  type: messaging
+  owner: cib-tribe
+  system: cib
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: sterling
+  description: logiciel de traitement des opérations de masse
+  tags:
+    - traitement-de-masse
+    - sterling
+spec:
+  type: soft
+  owner: cib-tribe
+  system: cib
