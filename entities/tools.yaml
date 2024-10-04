@@ -17,6 +17,10 @@ spec:
   lifecycle: production
   url: https://gitlab.udd.attijariwafa.net/
   image: /img/tools/gitlab.svg
+  links:
+    - url: http://localhost:8000/components/Tools/Gitlab  # URL vers le composant dans Cachet
+      title: Statut dans Cachet
+      icon: status
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
