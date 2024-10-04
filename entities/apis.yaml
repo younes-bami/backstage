@@ -4,8 +4,6 @@ metadata:
   name: gestion-comptes-api
   namespace: default
   description: API de gestion des comptes.
-  annotations:
-      backstage.io/techdocs-ref: url:http://localhost:3010/api-docs/
   links:
     - url: http://localhost:3010/api-docs/
       title: Documentation Swagger
