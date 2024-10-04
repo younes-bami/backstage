@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: borj-referentiel-tribe
+  title: Borj référentiel Client & EER
+  description: Equipe Borj référentiel Client & EER
+spec:
+  type: tribe
+  profile:
+    displayName: Borj référentiel Client & EER
+    email: sig.borj-ref@attijariwafa.com
+  parent: Poste-de-travail-et-connaissance-client
+  children: []
+

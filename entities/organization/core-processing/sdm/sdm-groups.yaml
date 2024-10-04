@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: sdm-tribe
+  description: Salle des marchés
+  title: sdm
+spec:
+  type: tribe
+  profile:
+    displayName: Salle des marchés
+  parent: core-processing
+  children: []

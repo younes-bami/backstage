@@ -1,0 +1,169 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ac.jerraf
+spec:
+  profile:
+    displayName: Jerraf Achraf
+    email: achraf.jerraf@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.youssefi
+spec:
+  profile:
+    displayName: Ayoub Youssefi
+    email: m.youssefi@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.ouidani
+spec:
+  profile:
+    displayName: Youssef Ouidani
+    email: y.ouidani@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.bouirdi
+spec:
+  profile:
+    displayName: Mohamed Reda Bouirdi
+    email: m.bouirdi@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: i.kettanihassani
+spec:
+  profile:
+    displayName: Ismail Kettani
+    email: i.kettanihassani@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: i.dkhissi
+spec:
+  profile:
+    displayName: Ilham Dkhissi
+    email: i.dkhissi@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: n.brahimi
+spec:
+  profile:
+    displayName: Nawal Brahimi
+    email: n.brahimi@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.eddahbi
+spec:
+  profile:
+    displayName: Mohamed Eddahbi
+    email: mohamed.eddahbi@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.attar
+spec:
+  profile:
+    displayName: Younes Attar
+    email: y.attar@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: i.rhrib
+spec:
+  profile:
+    displayName: Ilyas Rhrib
+    email: i.rhrib@attijariwafa.com
+  memberOf: [sdm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: i.aitzakri
+spec:
+  profile:
+    displayName: Imane Ait Zakri  # Stagiaire
+    email: i.aitzakri@attijariwafa.com 
+  memberOf: [sdm-tribe]
+
+ 
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: z.benyahya
+spec:
+  profile:
+    displayName: Zakaria Benyahya
+    email: z.benyahya@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.elmidaoui
+spec:
+  profile:
+    displayName: Houssam El Midaoui
+    email: h.elmidaoui@attijariwafa.com
+  memberOf: [sdm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: b.oukheyi
+spec:
+  profile:
+    displayName: Brahim Oukheyi
+    email: b.oukheyi@attijariwafa.com
+  memberOf: [sdm-tribe]
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: f.mokhtari
+spec:
+  profile:
+    displayName: Fatima Zahra Mokhtari
+    email: f.mokhtari@attijariwafa.com  
+  memberOf: [sdm-tribe]
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.hamdaoui
+spec:
+  profile:
+    displayName: Hamdaoui Yassine
+    email: y.hamdaoui@attijariwafa.com  
+  memberOf: [sdm-tribe]  
+
+  

@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: distribution-facturation-et-paiement-groups-tribe
+  title: Vente Multicanale
+  description: Distribution Facturation & Paiement
+spec:
+  type: tribe
+  profile:
+    displayName: Distribution Facturation & Paiement
+    email: team-vente@example.com
+  parent: digital-center
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: distribution-facturation-et-paiement-groups
+spec:
+  targets:
+    - ./vente-multicanal/vente-multicanal-groups.yaml
+    - ./vente-multicanal/vente-multicanal-users.yaml
+    - ./moyen-de-paiement/moyen-de-paiement-groups.yaml
+    - ./moyen-de-paiement/moyen-de-paiement-users.yaml

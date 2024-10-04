@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: vente-multicanal-tribe
+  title: Vente Multicanale
+  description: Distribution Multicanal, facturation et paiement
+spec:
+  type: tribe
+  profile:
+    displayName: Vente Multicanale
+    email: team-vente@example.com
+  parent: distribution-facturation-et-paiement-groups-tribe
+  children: []

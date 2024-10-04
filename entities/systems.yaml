@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: cib-portal-system
+  title: CIB Portal System
+  description: Portail Entreprise pour le Ebanking en self service
+  tags:
+    - portal
+spec:
+  owner: cib-tribe
+  domain: SelfCare
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: borj-crm-system
+  title: Borj CRM System
+  description: La gestion de la relation client (GRC)
+  tags:
+    - portal
+spec:
+  owner: crm-tribe
+  domain: CRM
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: payments-system
+  title: Payments System
+  description: Payments system
+  tags:
+    - portal
+spec:
+  owner: payment-tribe
+  domain: payments  

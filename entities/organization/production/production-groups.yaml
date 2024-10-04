@@ -1,0 +1,47 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: production
+  title: Production
+  description: production
+spec:
+  type: department
+  parent: awb-sig
+  profile:
+    displayName: Production
+    email: prod.sig@attijariwafa.com
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: indus-team
+  title: Squad Industrialisation
+  description: Squad Industrialisation
+spec:
+  type: squad
+  profile:
+    displayName: Industrialisation
+  parent: production
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: archi-prod
+  title: Architecture Production
+  description: Architecture production
+spec:
+  type: squad
+  parent: production
+  profile:
+    displayName: Architecture Production
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: production-users
+spec:
+  targets:
+    - ./production-users.yaml

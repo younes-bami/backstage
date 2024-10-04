@@ -1,0 +1,43 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.benlkhdim
+spec:
+  profile:
+    displayName: Azhar Benlakhdim
+    email: a.benlkhdim@attijariwafa.com
+  memberOf: [securite,awb-sig]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: re.nabil
+spec:
+  profile:
+    displayName: Nabil Reda
+    email: re.nabil@attijariwafa.com
+  memberOf: [securite,awb-sig]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: svcpentesting1
+spec:
+  profile:
+    displayName: pen testingone
+    email: svcpentesting1@attijariwafa.com
+  memberOf: [securite,awb-sig]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: svcpentesting2
+spec:
+  profile:
+    displayName: pen testingtwo
+    email: svcpentesting2@attijariwafa.com
+  memberOf: [securite,awb-sig]

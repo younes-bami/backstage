@@ -1,0 +1,62 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: z.ghannam
+spec:
+  profile:
+    displayName: Zayd Ghannam
+    email: z.ghannam@attijariwafa.com
+  memberOf: [credit-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: na.chkirih
+spec:
+  profile:
+    displayName: Najib Chkirih
+    email: na.chkirih@attijariwafa.com
+  memberOf: [credit-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: said.salaheddine
+spec:
+  profile:
+    displayName: Said Salaheddine
+    email: said.salaheddine@attijariwafa.com
+  memberOf: [credit-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.ergaibi
+spec:
+  profile:
+    displayName: Yasin Er-gaibi 
+    email: y.ergaibi@attijariwafa.com
+  memberOf: [credit-tribe]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: e.elmokhtar
+spec:
+  profile:
+    displayName: El Mokhtar El Khalki 
+    email: e.elmokhtar@attijariwafa.com    
+  memberOf: [credit-tribe]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.elkarama
+spec:
+  profile:
+    displayName: Mohammed Ali El Karama 
+    email:  m.elkarama@attijariwafa.com  
+  memberOf: [credit-tribe]  

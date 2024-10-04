@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: DWH-squad
+  title: Squad DWH
+  description: DWH
+spec:
+  type: squad
+  profile:
+    displayName: Squad DWH
+    email: team-a@example.com
+  parent: data-tribe
+  children: []

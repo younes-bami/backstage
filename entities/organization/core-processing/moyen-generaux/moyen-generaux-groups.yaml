@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: moyen-generaux-tribe
+  description: Moyen Generaux partof LSG
+  title: Moyen Généraux
+spec:
+  type: tribe
+  profile:
+    displayName: moyen-generaux
+  parent: core-processing
+  children: []
+

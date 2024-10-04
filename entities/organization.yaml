@@ -1,0 +1,31 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: awb-sig
+  title: Système d'Information Groupe(SIG)
+  description: Système d'Information Groupe
+  links:
+    - url: http://www.attijariwafabank.com/
+      title: Website
+spec:
+  type: organization
+  profile:
+    displayName: AWB SIG
+    email: sig@attijariwafa.com
+  children: [digital-center, core-processing]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: awb-sig-groups
+  description: AWB SIG groups definition
+spec:
+  targets:
+    - ./organization/digital-center/digital-center-groups.yaml
+    - ./organization/core-processing/core-processing-groups.yaml
+    - ./organization/dsa/dsa-groups.yaml
+    - ./organization/production/production-groups.yaml
+    - ./organization/securite/securite-groups.yaml
+

@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.gallouche
+spec:
+  profile:
+    displayName: Gallouche Hamza
+    email: h.gallouche@attijariwafa.com
+  memberOf: [moyen-de-paiement-tribe]

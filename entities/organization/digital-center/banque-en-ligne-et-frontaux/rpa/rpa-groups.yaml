@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rpa-tribe
+  title: RPA
+  description: RPA Tribe
+spec:
+  type: squad
+  profile:
+    displayName: RPA
+    email: team-RPA@example.com
+  parent: bel-frontaux
+  children: []

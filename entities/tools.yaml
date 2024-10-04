@@ -1,0 +1,195 @@
+---
+### harbor, argocd, dynatrace, openshift, dpendency-track, jenkins, gitlab, kiali, nexus, awx, sonar, kibana ELK 
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gitlab
+  title: Gitlab
+  description: Code source version control and Git repository and collaborative software development platform 
+  tags:
+    - version-control
+    - git
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: https://gitlab.udd.attijariwafa.net/
+  image: /img/tools/gitlab.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jenkins
+  title: Jenkins
+  description: Automation server that helps facilitating continuous integration and continuous delivery (CI/CD) of software.
+  tags:
+    - ci-cd
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: https://jenkins.udd.attijariwafa.net/
+  image: /img/tools/jenkins.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sonarqube
+  title: SonarQube
+  description: Continuous inspection of code quality. static analysis of code to detect bugs and code smells 
+  tags:
+    - code-quality
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: http://sonar.udd.attijariwafa.net:9000/
+  image: /img/tools/sonarqube.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dynatrace
+  title: Dynatrace
+  description: Infrastructure and application monitoring platform
+  tags:
+    - monitoring
+    - apm
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: https://172.29.8.144/
+  image: /img/tools/dynatrace.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kibana
+  title: Kibana
+  description: Data visualization and exploration tool used for ELK logs management platform.
+  tags:
+    - logs
+    - monitoring
+    - elk
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: https://kibana.attijariwafa.net/
+  image: /img/tools/kibana.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sonatype-nexus
+  title: Sonatype Nexus
+  description: Repository manager that organizes, stores and distributes artifacts needed for software development.
+  tags:
+    - artifacts
+    - repository-manager
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: http://172.29.7.156:8081/
+  image: /img/tools/sonatype.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: harbor
+  title: Harbor
+  description: Docker images registry and trivy scans 
+  tags:
+    - repository-manager
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: https://core.harbor.apps.ocpdev.attijariwafa.net/
+  image: /img/tools/harbor.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dependency-track
+  title: Dependency Track
+  description: SBOM Management 
+  tags:
+    - security
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: https://dt.apps.ocpdev.attijariwafa.net/
+  image: /img/tools/dt.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: argocd
+  title: Argocd
+  description: Declarative GitOps CD for Kubernetes 
+  tags:
+    - gitops
+    - countinuous-deployment
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: https://awb-argocd-server-argocd.apps.ocpdev.attijariwafa.net/
+  image: /img/tools/argocd.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: openshift
+  title: Openshift Container Platform
+  description: cloud-based Kubernetes platform that helps developers build applications
+  tags:
+    - platform
+    - cloud
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: https://oauth-openshift.apps.ocpdev.attijariwafa.net/
+  image: /img/tools/openshift.svg
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: awx
+  title: Ansible AWX
+  description: Ansible User Interface AWX
+  tags:
+    - countinuous-deployment
+  sharing:
+    - "*"
+spec:
+  type: tool
+  owner: devsecops-tribe
+  lifecycle: production
+  url: https://awx.udd.attijariwafa.net/
+  image: /img/tools/awx.svg

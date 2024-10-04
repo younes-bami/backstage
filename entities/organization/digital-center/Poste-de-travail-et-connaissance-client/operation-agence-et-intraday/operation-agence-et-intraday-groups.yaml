@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: operation-agence-et-intraday
+  title: Opération Agence & Intraday
+  description: Equipe Opération Agence & Intraday
+spec:
+  type: tribe
+  profile:
+    displayName: Opération Agence & Intraday
+    email: sig.operation-agence-et-intraday@attijariwafa.com
+  parent: Poste-de-travail-et-connaissance-client
+  children: []
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: operation-agence-et-intraday-groups
+spec:
+  targets:
+    - ./borj-operation/borj-operation-groups.yaml
+    - ./borj-operation/borj-operation-users.yaml

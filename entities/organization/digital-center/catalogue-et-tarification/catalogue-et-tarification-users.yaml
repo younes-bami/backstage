@@ -1,0 +1,118 @@
+#---
+#apiVersion: backstage.io/v1alpha1
+#kind: User
+#metadata:
+#  name: 
+#spec:
+#  profile:
+#    displayName: 
+#    email: 
+#  memberOf: [catalog-tarification-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: k.haida
+spec:
+  profile:
+    displayName: Kaoutar Haida
+    email: k.haida@attijariwafa.com
+  memberOf: [catalog-tarification-tribe,awb-sig]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mo.ahouzi
+spec:
+  profile:
+    displayName: Mohammed Ahouzi
+    email: mo.ahouzi@attijariwafa.com
+  memberOf: [catalog-tarification-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.bennajeh
+spec:
+  profile:
+    displayName: Ahmed Bennajeh
+    email: a.bennajeh@attijariwafa.com
+  memberOf: [catalog-tarification-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.ayane
+spec:
+  profile:
+    displayName: Achraf Ayane
+    email: a.ayane@attijariwafa.com
+  memberOf: [catalog-tarification-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: i.jaai
+spec:
+  profile:
+    displayName: Ilyas Jaai
+    email: i.jaai@attijariwafa.com
+  memberOf: [catalog-tarification-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.elamel
+spec:
+  profile:
+    displayName: Abdelkarim El Amel
+    email: a.elamel@attijariwafa.com  
+  memberOf: [catalog-tarification-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: o.outama
+spec:
+  profile:
+    displayName: Othmane Outama
+    email: o.outama@attijariwafa.com
+  memberOf: [catalog-tarification-tribe]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sed.benjelloun
+spec:
+  profile:
+    displayName: Seddik Benjelloun
+    email: sed.benjelloun@attijariwafa.com 
+  memberOf: [catalog-tarification-tribe]  
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.aitouaziz
+spec:
+  profile:
+    displayName: Meriem Ait Ouaziz
+    email: m.aitouaziz@attijariwafa.com
+  memberOf: [catalog-tarification-tribe]
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.dami
+spec:
+  profile:
+    displayName: Meriem Ait Ouaziz
+    email: h.dami@attijariwafa.com
+  memberOf: [catalog-tarification-tribe]

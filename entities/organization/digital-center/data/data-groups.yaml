@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: data-tribe
+  title: Data
+  description: Data Tribe
+spec:
+  type: tribe
+  profile:
+    displayName: Data
+    email: team-data@example.com
+  parent: digital-center
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: data-groups
+spec:
+  targets:
+    - ./bi/bi-groups.yaml
+    - ./bi/bi-users.yaml
+    - ./datalake/data-groups.yaml
+    - ./datalake/data-users.yaml
+    - ./dwh/dwh-groups.yaml
+    - ./dwh/dwh-users.yaml

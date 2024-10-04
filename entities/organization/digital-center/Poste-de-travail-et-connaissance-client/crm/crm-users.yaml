@@ -1,0 +1,194 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: k.elhaouate
+spec:
+  profile:
+    displayName: El Haouate Karim
+    email: k.elhaouate@attijariwafa.com
+  memberOf: [crm-tribe,awb-sig]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.moukhliss
+spec:
+  profile:
+    displayName: Amine Moukhliss
+    email: a.moukhliss@attijariwafa.com
+  memberOf: [crm-tribe,awb-sig]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: k.elhaouate
+spec:
+  profile:
+    displayName: Karim El Haouate
+    email: k.elhaouate@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.mikou
+spec:
+  profile:
+    displayName: Adil Mikou
+    email: a.mikou@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: am.zekri
+spec:
+  profile:
+    displayName: Amal Zekri
+    email: a.zekri@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: yassine.naciri
+spec:
+  profile:
+    displayName: Yassine Naciri
+    email: yassine.naciri@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: z.lessiq
+spec:
+  profile:
+    displayName: Zouhair Lessiq
+    email: z.lessiq@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: hi.amane
+spec:
+  profile:
+    displayName: Hicham Amane
+    email: hicham.amane@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.chabli
+spec:
+  profile:
+    displayName: Mohamed Yassine Chabli
+    email: m.chabli@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: f.elfid
+spec:
+  profile:
+    displayName: Faissal Elfid
+    email: f.elfid@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: n.konan
+spec:
+  profile:
+    displayName: Jean Martial Konan
+    email: n.konan@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.bouhila
+spec:
+  profile:
+    displayName: Safae Bouhila
+    email: s.bouhila@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: o.elidrissielbouzai
+spec:
+  profile:
+    displayName: Oussama El idrissi el bouzaidi
+    email: o.elidrissielbouzai@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.guinhouya
+spec:
+  profile:
+    displayName: Moise Guinhouya
+    email: m.guinhouya@attijariwafa.com
+  memberOf: [crm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.elhata
+spec:
+  profile:
+    displayName: Yassine El Hata
+    email: y.elhata@attijariwafa.com
+  memberOf: [crm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.eddakaki
+spec:
+  profile:
+    displayName: Ayoub Eddakaki
+    email: a.eddakaki@attijariwafa.com
+  memberOf: [crm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.nipiki
+spec:
+  profile:
+    displayName: Adou Nipiki
+    email: a.nipiki@attijariwafa.com
+  memberOf: [crm-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.benamor
+spec:
+  profile:
+    displayName: BEN AMOR ALI
+    email: a.benamor@attijariwafa.com
+  memberOf: [crm-tribe]  

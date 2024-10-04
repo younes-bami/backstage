@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: vitrines-digitales
+  title: vitrines digitales
+  description: vitrines digitales
+spec:
+  type: squad
+  profile:
+    displayName: Vitrines Digitales
+  parent: bel-frontaux
+  children: []

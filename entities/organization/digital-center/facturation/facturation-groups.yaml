@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: facturation-tribe
+  title: facturation
+  description: facturation
+spec:
+  type: tribe
+  profile:
+    displayName: facturation
+    email: facturation@attijariwafa.com
+  parent: digital-center
+  children: []

@@ -1,0 +1,111 @@
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: r.dahman
+spec:
+  profile:
+    displayName: Rida Dahman
+    email: r.dahman@attijariwafa.com
+  memberOf: [cib-tribe,awb-sig]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: moh.eljai
+spec:
+  profile:
+    displayName: Mohammed Eljai
+    email: moh.eljai@attijariwafa.com
+  memberOf: [cib-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.ouarezzamen
+spec:
+  profile:
+    displayName: Saber Ouarezzamen
+    email: s.ouarezzamen@attijariwafa.com
+  memberOf: [cib-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.hamraoui
+spec:
+  profile:
+    displayName: Salma Hamraoui
+    email: s.hamraoui@attijariwafa.com
+  memberOf: [cib-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.zinbi
+spec:
+  profile:
+    displayName: Mourad Zinbi
+    email: m.zinbi@attijariwafa.com
+  memberOf: [cib-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.nacif
+spec:
+  profile:
+    displayName: Achraf Nacif
+    email: a.nacif@attijariwafa.com
+  memberOf: [cib-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.boumera
+spec:
+  profile:
+    displayName: Annasse Boumera
+    email: a.boumera@attijariwafa.com
+  memberOf: [cib-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.andalousi
+spec:
+  profile:
+    displayName: Ahmed Andalousi
+    email: a.andalousi@attijariwafa.com
+  memberOf: [cib-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.coulibaly
+spec:
+  profile:
+    displayName: Abdoul Razak Coulibaly
+    email: a.coulibaly@attijariwafa.com
+  memberOf: [cib-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: al.kaissy
+spec:
+  profile:
+    displayName: Kaissy Alaeddine
+    email: a.kaissy@attijariwafa.com
+  memberOf: [cib-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.elghazouani
+spec:
+  profile:
+    displayName: El Ghazouani Yassine
+    email: y.elghazouani@attijariwafa.com
+  memberOf: [cib-tribe]

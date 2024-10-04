@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: credit-tribe
+  title: Crédit
+  description: Credit
+spec:
+  type: tribe
+  profile:
+    displayName: Crédit
+  parent: core-processing
+  children: []

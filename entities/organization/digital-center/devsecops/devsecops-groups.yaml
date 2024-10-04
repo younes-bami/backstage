@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: devsecops-tribe
+  title: Devsecops
+  description: Equipe Devsecops Digital Center
+spec:
+  type: squad
+  profile:
+    displayName: Devsecops
+    email: sig.devsecops@attijariwafa.com
+  parent: digital-center
+  children: []

@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: digital-center
+  title: Digital Center
+  description: The Digital Center
+spec:
+  type: department
+  parent: awb-sig
+  profile:
+    displayName: Digital Center
+    email: dc.sig@attijariwafa.com
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: digital-center-groups
+spec:
+  targets:
+    - ./banque-en-ligne-et-frontaux/banque-en-ligne-et-frontaux-groups.yaml
+    - ./catalogue-et-tarification/catalogue-et-tarification-groups.yaml
+    - ./catalogue-et-tarification/catalogue-et-tarification-users.yaml
+    - ./data/data-groups.yaml
+    - ./devsecops/devsecops-groups.yaml
+    - ./devsecops/devsecops-users.yaml
+    - ./distribution-facturation-et-paiement/distribution-facturation-et-paiement-groups.yaml
+    - ./Poste-de-travail-et-connaissance-client/Poste-de-travail-et-connaissance-client-groups.yaml
+    - ./ecm/ecm-groups.yaml
+    - ./ecm/ecm-users.yaml
+    - ./facturation/facturation-groups.yaml
+    - ./facturation/facturation-users.yaml    

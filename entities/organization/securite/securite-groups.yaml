@@ -1,0 +1,23 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: securite
+  title: securite
+  description: securite
+spec:
+  type: department
+  parent: awb-sig
+  profile:
+    displayName: securite
+    email: securite@attijariwafa.com
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: securite-group-location
+spec:
+  targets:
+    - ./securite-users.yaml

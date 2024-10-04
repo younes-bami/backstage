@@ -1,0 +1,139 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Payments
+  title: Paiements
+  description: Outils et systèmes permettant d'éffectuer les transactions bancaires
+spec:
+  owner: core-processing
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Risques
+  title: Risques
+  description: Risques, distribution et gestion des Crédits
+spec:
+  owner: core-processing
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Cash-Management
+  title: Cash Management
+  description: Domaine Cash Management
+spec:
+  owner: core-processing
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Compliance
+  title: Compliance
+  description: Domaine Compliance
+spec:
+  owner: core-processing
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Trade-Finance
+  title: Trade Finance
+  description: Domaine Trade Finance
+spec:
+  owner: core-processing
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: CRM
+  title: CRM et Nouveau poste de travail
+  description: La gestion de la relation client (GRC) regroups les outils et approche de l'interaction de la banque avec ses clients actuels et potentiels.
+spec:
+  owner: digital-center
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Digital-Retail
+  title: Digital Retail Self Service
+  description: Outils et applications permettant aux clients de la banque de detail de s'engager avec les produits et services à partir des canaux numériques en mode self service.
+spec:
+  owner: digital-center
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Vente-Multicanale
+  title: Vente Multicanale
+  description: Vente Multicanale
+spec:
+  owner: digital-center
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Digital-CIB
+  title: Digital CIB Self Service
+  description: Outils et applications permettant aux clients corporate de s'engager avec les produits et services à partir des canaux numériques en mode self service.
+spec:
+  owner: digital-center
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Distribution
+  title: Distribution
+  description: Domaine Distribution
+spec:
+  owner: digital-center
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Catalogue-Tarification
+  title: Catalogue et Tarification
+  description: Catalogue produit et Tarification
+spec:
+  owner: digital-center
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Referentiel-Client
+  title: Référentiel Client & EER
+  description: Domaine Borj référentiel Client & entrée en relation
+spec:
+  owner: digital-center
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Operation-Agence-Intraday
+  title: Opération Agence & Intraday
+  description: Domaine Opération Agence & Intraday
+spec:
+  owner: digital-center
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: DevSecOps
+  title: DevSecOps
+  description: Domaine DevSecOps
+spec:
+  owner: digital-center

@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: selfcare-tribe
+  title: Digital Retail
+  description: Tribu Digital Retail
+spec:
+  type: squad
+  profile:
+    displayName: Digital Retail
+    email: team-a@example.com
+  parent: bel-frontaux
+  children: []
+
+
+

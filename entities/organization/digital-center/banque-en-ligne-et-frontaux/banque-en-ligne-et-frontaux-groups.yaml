@@ -1,0 +1,42 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: bel-frontaux
+  title: Banque En Ligne & Frontaux
+  description: Tribu Banque En Ligne & Frontaux
+spec:
+  type: tribe
+  profile:
+    displayName: Banque En Ligne & Frontaux
+    email: team-a@example.com
+  parent: digital-center
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: banque-en-ligne-et-frontaux-groups
+spec:
+  targets:
+    - ./digital-retail/digital-retail-groups.yaml
+    - ./digital-retail/digital-retail-users.yaml
+    - ./cib/cib-groups.yaml
+    - ./cib/cib-users.yaml
+    - ./enablers/enablers-groups.yaml # contain RPA
+    - ./vitrines-digitales/vitrines-digitales-groups.yaml
+    - ./vitrines-digitales/vitrines-digitales-users.yaml
+    - ./rpa/rpa-groups.yaml
+    - ./rpa/rpa-users.yaml
+    #- ./payment/payment-groups.yaml
+    #- ./credit/credit-users.yaml
+    #- ./credit/credit-groups.yaml
+    #- ./arrco/arrco-groups.yaml
+    #- ./arrco/arrco-users.yaml
+
+
+
+
+
+

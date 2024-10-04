@@ -1,0 +1,66 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.bakali
+spec:
+  profile:
+    displayName: Soufiane Bakali
+    email: 	s.bakali@attijariwafa.com
+  memberOf: [facturation-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ac.abdelmouttalib
+spec:
+  profile:
+    displayName: Achraf Abdelmouttalib
+    email: 	ac.abdelmouttalib@attijariwafa.com
+  memberOf: [facturation-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.eljabiry
+spec:
+  profile:
+    displayName: Ayoub Eljabiry
+    email: 	a.eljabiry@attijariwafa.com
+  memberOf: [facturation-tribe]  
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.elmessaoudiidriss
+spec:
+  profile:
+    displayName: El Messaoudi Idrissi Mohcine
+    email: 	m.elmessaoudiidriss@attijariwafa.com
+  memberOf: [facturation-tribe]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.souilhi
+spec:
+  profile:
+    displayName: Mouad Souilhi
+    email: 	m.souilhi@attijariwafa.com
+  memberOf: [facturation-tribe]     
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: o.nemrouri
+spec:
+  profile:
+    displayName: Omar Nemrouri
+    email: 	o.nemrouri@attijariwafa.com
+  memberOf: [facturation-tribe]    

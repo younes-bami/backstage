@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: payment-tribe
+  description: Paiements
+  title: Paiements
+spec:
+  type: tribe
+  profile:
+    displayName: Paiements
+  parent: core-processing
+  children: []

@@ -1,0 +1,52 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.joseph
+spec:
+  profile:
+    displayName: Sarr Joseoh Dominique Gorom
+    email: s.joseph@attijariwafa.com
+  memberOf: [borj-referentiel-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.elhanafisebti
+spec:
+  profile:
+    displayName: El Hanafi-Sebti Ahmed
+    email: a.elhanafisebti@attijariwafa.com
+  memberOf: [borj-referentiel-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.eddakaki
+spec:
+  profile:
+    displayName: Eddakaki Ayoub
+    email: a.eddakaki@attijariwafa.com
+  memberOf: [borj-referentiel-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.elhaouachi
+spec:
+  profile:
+    displayName: Elhaouachi Mouhcine
+    email: m.elhaouachi@attijariwafa.com
+  memberOf: [borj-referentiel-tribe]
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.ezian
+spec:
+  profile:
+    displayName: Hippolyte Ezian
+    email: h.ezian@attijariwafa.com
+  memberOf: [borj-referentiel-tribe]

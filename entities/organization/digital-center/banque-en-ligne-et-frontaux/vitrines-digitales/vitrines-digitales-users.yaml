@@ -1,0 +1,30 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.bouhamidi
+spec:
+  profile:
+    displayName: Bouhamidi Abderrahim
+    email: a.bouhamidi@attijariwafa.com
+  memberOf: [vitrines-digitales]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.ahadjji
+spec:
+  profile:
+    displayName: Ahadjji Ahmed
+    email: a.ahadjji@attijariwafa.com
+  memberOf: [vitrines-digitales]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.aqnouch
+spec:
+  profile:
+    displayName: Aqnouch Mohammed
+    email: m.aqnouch@attijariwafa.com
+  memberOf: [vitrines-digitales]

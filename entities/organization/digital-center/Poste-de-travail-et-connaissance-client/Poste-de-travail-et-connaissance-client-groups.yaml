@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Poste-de-travail-et-connaissance-client
+  title: Poste de travail & Connaissance Client
+  description: Equipe Poste de travail & Connaissance Client
+spec:
+  type: tribe
+  profile:
+    displayName: Poste de travail & Connaissance Client
+    email: sig.pdt-connaissance-client@attijariwafa.com
+  parent: digital-center
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: Poste-de-travail-et-connaissance-client-groups
+spec:
+  targets:
+    - ./borj-reférentiel-client/borj-reférentiel-client-groups.yaml
+    - ./borj-reférentiel-client/borj-reférentiel-client-users.yaml
+    - ./crm/crm-groups.yaml
+    - ./crm/crm-users.yaml
+    - ./operation-agence-et-intraday/borj-operation/borj-operation-groups.yaml
+    - ./operation-agence-et-intraday/borj-operation/borj-operation-users.yaml
+    - ./gestion-dossier-scolarite/gds-groups.yaml

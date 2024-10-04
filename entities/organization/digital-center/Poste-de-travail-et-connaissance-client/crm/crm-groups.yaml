@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: crm-tribe
+  title: CRM & Modèle relationnel
+  description: Tribu CRM et nouveau poste de travail
+spec:
+  type: squad
+  profile:
+    displayName: CRM & Modèle relationnel
+  parent: Poste-de-travail-et-connaissance-client
+  children: []

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ecm-tribe
+  title: ecm
+  description: ecm
+spec:
+  type: tribe
+  profile:
+    displayName: Enterprise Content Management
+    email: ecm@attijariwafa.com
+  parent: digital-center
+  children: []

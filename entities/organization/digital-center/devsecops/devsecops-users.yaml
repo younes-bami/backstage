@@ -1,0 +1,72 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: f.alamichentoufi
+spec:
+  profile:
+    displayName: ALAMI CHENTOUFI FAYCAL
+    email: f.alamichentoufi@attijariwafa.com
+  memberOf: [awb-sig]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: n.squallihoussaini
+spec:
+  profile:
+    displayName: Narjiss Squalli Houssaini
+    email: n.squallihoussaini@attijariwafa.com
+  memberOf: [awb-sig, devsecops-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.aittaleb
+spec:
+  profile:
+    displayName: Mohamed Ait Taleb
+    email: m.aittaleb@attijariwafa.com
+  memberOf: [awb-sig, devsecops-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: n.belakbir
+spec:
+  profile:
+    displayName: Nabil Belakbir
+    email: n.belakbir@attijariwafa.com
+  memberOf: [awb-sig, devsecops-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.chrifialaoui
+spec:
+  profile:
+    displayName: Hakim Chrifi alaoui
+    email: h.chrifialaoui@attijariwafa.com
+  memberOf: [awb-sig, devsecops-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.bami
+spec:
+  profile:
+    displayName: Younes Bami
+    email: y.bami@attijariwafa.com
+  memberOf: [awb-sig, devsecops-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: k.charkaoui
+spec:
+  profile:
+    displayName: CHARKAOUI KHALIL
+    email: k.charkaoui@attijariwafa.com 
+  memberOf: [awb-sig, devsecops-tribe]
+
+ 

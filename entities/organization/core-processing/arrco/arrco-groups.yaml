@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: arrete-des-comptes
+  description: Arrêté des comptes
+  title: Arrêté des comptes
+spec:
+  type: squad
+  profile:
+    displayName: Arrêté des comptes
+  parent: core-processing
+  children: []

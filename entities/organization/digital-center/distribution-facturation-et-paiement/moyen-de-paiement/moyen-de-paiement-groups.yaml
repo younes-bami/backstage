@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: moyen-de-paiement-tribe
+  title: Moyen de Paiement
+  description: Moyen de Paiement
+spec:
+  type: tribe
+  profile:
+    displayName: Moyen de Paiement
+    email: team-moypay@example.com
+  parent: distribution-facturation-et-paiement-groups-tribe
+  children: []
+

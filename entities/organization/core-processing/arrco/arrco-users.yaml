@@ -1,0 +1,42 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: o.messaoudi
+spec:
+  profile:
+    displayName: Oussama Messaoudi
+    email: o.messaoudi@attijariwafa.com
+  memberOf: [arrete-des-comptes]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.hajbaoui
+spec:
+  profile:
+    displayName: Yousdef Hajbaoui
+    email: y.hajbaoui@attijariwafa.com
+  memberOf: [arrete-des-comptes]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.bassou
+spec:
+  profile:
+    displayName: Youssef Bassou
+    email: y.bassou@attijariwafa.com
+  memberOf: [arrete-des-comptes,moyen-generaux-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ab.nasri
+spec:
+  profile:
+    displayName: Nasri Abdelbar
+    email: ab.nasri@attijariwafa.com
+  memberOf: [moyen-generaux-tribe]  
+
+

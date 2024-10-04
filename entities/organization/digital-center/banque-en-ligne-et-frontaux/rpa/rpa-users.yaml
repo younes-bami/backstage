@@ -1,0 +1,63 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.elyoussfialaoui
+spec:
+  profile:
+    displayName: EL Youssfi Alaoui Abdellah
+    email: a.elyoussfialaoui@attijariwafa.com
+  memberOf: [rpa-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: im.ouelfaquir
+spec:
+  profile:
+    displayName: OU EL FAQUIR IMRANE
+    email: im.ouelfaquir@attijariwafa.com
+  memberOf: [rpa-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: o.douimi
+spec:
+  profile:
+    displayName: Douimi Otmane
+    email: o.douimi@attijariwafa.com
+  memberOf: [rpa-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: il.elghazi
+spec:
+  profile:
+    displayName: Elghazi Ilyass
+    email: il.elghazi@attijariwafa.com
+  memberOf: [rpa-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: b.atoui
+spec:
+  profile:
+    displayName: Bilal Atoui
+    email: b.atoui@attijariwafa.com
+  memberOf: [rpa-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: f.guerouali
+spec:
+  profile:
+    displayName: Guerouali Faycal
+    email: f.guerouali@attijariwafa.com
+  memberOf: [rpa-tribe]

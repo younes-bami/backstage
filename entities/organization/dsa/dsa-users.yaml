@@ -1,0 +1,82 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.abouloumoum
+spec:
+  profile:
+    displayName: Said Abouloumoum
+    email: s.abouloumoum@attijariwafa.com
+  memberOf: [awb-sig, dsa]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: r.elhilali
+spec:
+  profile:
+    displayName: Rachid El Hilali
+    email: r.elhilali@attijariwafa.com
+  memberOf: [awb-sig, dsa]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: az.fadil
+spec:
+  profile:
+    displayName: Aziz FADIL
+    email: az.fadil@attijariwafa.com
+  memberOf: [awb-sig, dsa]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: b.benjlil
+spec:
+  profile:
+    displayName: Bouchaib Benjlil 
+    email: b.benjlil@attijariwafa.com
+  memberOf: [awb-sig, dsa]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: k.youbi
+spec:
+  profile:
+    displayName: Kamal Youbi  
+    email: k.youbi@attijariwafa.com
+  memberOf: [awb-sig, dsa]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: fouad.mouhdi
+spec:
+  profile:
+    displayName: Fouad Mouhdi 
+    email: fouad.mouhdi@attijariwafa.com
+  memberOf: [awb-sig, dsa]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.bernoussi
+spec:
+  profile:
+    displayName: Youssef Bernoussi 
+    email: y.bernoussi@attijariwafa.com  
+  memberOf: [awb-sig, dsa]
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.rahimi
+spec:
+  profile:
+    displayName: Hicham Rahimi
+    email: h.rahimi@attijariwafa.com
+  memberOf: [awb-sig, dsa]

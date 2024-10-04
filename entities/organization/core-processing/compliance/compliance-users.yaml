@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.elkarama
+spec:
+  profile:
+    displayName: El Karama Mohammed Ali
+    email: m.elkarama@attijariwafa.com
+  memberOf: [compliance-tribe]

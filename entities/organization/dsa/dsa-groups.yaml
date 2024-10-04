@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dsa
+  title: Direction Strategie et Architecture
+  description: Direction Strategie et Architecture
+spec:
+  type: department
+  parent: awb-sig
+  profile:
+    displayName: Direction Strategie et Architecture
+    email: dsa.sig@attijariwafa.com
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: dsa-users
+spec:
+  targets:
+    - ./dsa-users.yaml

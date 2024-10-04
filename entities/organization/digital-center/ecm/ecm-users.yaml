@@ -1,0 +1,112 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: b.rais
+spec:
+  profile:
+    displayName: Bouchra Rais
+    email: 	b.rais@attijariwafa.com
+  memberOf: [ecm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: n.sani
+spec:
+  profile:
+    displayName: Nadia Sani
+    email: 	n.sani@attijariwafa.com
+  memberOf: [ecm-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: n.ghandi
+spec:
+  profile:
+    displayName: Nezha Ghandi
+    email: 	n.ghandi@attijariwafa.com
+  memberOf: [ecm-tribe]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.mazrouy
+spec:
+  profile:
+    displayName: Sami Mazrouy
+    email: 	s.mazrouy@attijariwafa.com
+  memberOf: [ecm-tribe]  
+
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: e.essafi
+spec:
+  profile:
+    displayName: Mehd Essafi
+    email: 	e.essafi@attijariwafa.com
+  memberOf: [ecm-tribe] 
+  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: c.colynicolas
+spec:
+  profile:
+    displayName: Nicolas Christian Coly
+    email: 	c.colynicolas@attijariwafa.com
+  memberOf: [ecm-tribe] 
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.sow
+spec:
+  profile:
+    displayName: Sow Mansour
+    email: 	m.sow@attijariwafa.com
+  memberOf: [ecm-tribe]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mo.touhami
+spec:
+  profile:
+    displayName: Mohammed Ouazzani Touhami
+    email: 	mo.touhami@attijariwafa.com
+  memberOf: [ecm-tribe]    
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.pratic
+spec:
+  profile:
+    displayName: Abdellah Pratic
+    email: 	a.pratic@attijariwafa.com
+  memberOf: [ecm-tribe] 
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.hassnaoui
+spec:
+  profile:
+    displayName: Abdelkarim El Hasnaoui
+    email: 	a.hassnaoui@attijariwafa.com
+  memberOf: [ecm-tribe]         

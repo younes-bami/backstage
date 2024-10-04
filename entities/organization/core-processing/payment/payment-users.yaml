@@ -1,0 +1,140 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: z.hamada
+spec:
+  profile:
+    displayName: Zakaria Hamada
+    email: z.hamada@attijariwafa.com
+  memberOf: [payment-tribe,awb-sig]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.kossir
+spec:
+  profile:
+    displayName: Younes Kossir
+    email: y.kossir@attijariwafa.com
+  memberOf: [payment-tribe,awb-sig]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.lamrini
+spec:
+  profile:
+    displayName: Abdelkarim Lamrini
+    email: a.lamrini@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: j.mekkaoui
+spec:
+  profile:
+    displayName: Jamal Mekkaoui
+    email: j.mekkaoui@attijariwafa.com
+    picture: blob:https://outlook.office.com/2ca58dc7-0d31-448b-bd86-05f6bb839374
+  memberOf: [payment-tribe,awb-sig]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.machhour
+spec:
+  profile:
+    displayName: Mohamed Machhour
+    email: m.machhour@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.aqel
+spec:
+  profile:
+    displayName: Yazid Aqel
+    email: y.aqel@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.dahmane
+spec:
+  profile:
+    displayName: Yassine Dahmane
+    email: y.dahmane@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: za.rafik
+spec:
+  profile:
+    displayName: Zakaria Rafik
+    email: za.rafik@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.bousfia
+spec:
+  profile:
+    displayName: Mohamed Bousfia
+    email: m.bousfia@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.igherra
+spec:
+  profile:
+    displayName: Mustapha Igherra
+    email: m.igherra@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.sahla
+spec:
+  profile:
+    displayName: Amine Sahla
+    email: a.sahla@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.moujtahid
+spec:
+  profile:
+    displayName: Aymane Moujtahid
+    email: a.moujtahid@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: n.zizoun
+spec:
+  profile:
+    displayName: Nizar Zizoun
+    email: n.zizoun@attijariwafa.com
+  memberOf: [payment-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: o.tanji
+spec:
+  profile:
+    displayName: Oussama Tanji
+    email: o.tanji@attijariwafa.com
+  memberOf: [payment-tribe]

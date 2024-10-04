@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: gds-tribe
+  title: Gestion Dossier Scolarite
+  description: Tribu Gestion Dossier Scolarite
+spec:
+  type: squad
+  profile:
+    displayName: Tribu Gestion Dossier Scolarite
+  parent: Poste-de-travail-et-connaissance-client
+  children: []

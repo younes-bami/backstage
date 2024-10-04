@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: BI-squad
+  title: Squad BI
+  description: BI
+spec:
+  type: squad
+  profile:
+    displayName: Squad BI
+    email: team-a@example.com
+  parent: data-tribe
+  children: []

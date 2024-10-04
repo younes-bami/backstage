@@ -1,0 +1,24 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: enablers
+  title: enablers
+  description: enablers
+spec:
+  type: squad
+  profile:
+    displayName: enablers
+  parent: bel-frontaux
+  children: []
+
+#---
+#apiVersion: backstage.io/v1alpha1
+#kind: Location
+#metadata:
+#  name: enablers-groups
+#spec:
+#  targets:
+#    - ./rpa/rpa-groups.yaml
+#    - ./rpa/rpa-users.yaml
+#

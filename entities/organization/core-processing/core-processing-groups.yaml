@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: core-processing
+  title: Core Processing Systems
+  description: Core processing systems department
+spec:
+  type: department
+  parent: awb-sig
+  profile:
+    displayName: Core Processing Systems
+  children: []
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: core-processing-groups
+spec:
+  targets:
+    - ./payment/payment-users.yaml
+    - ./payment/payment-groups.yaml
+    - ./credit/credit-users.yaml
+    - ./credit/credit-groups.yaml
+    - ./arrco/arrco-groups.yaml
+    - ./arrco/arrco-users.yaml
+    - ./compliance/compliance-groups.yaml
+    - ./compliance/compliance-users.yaml
+    - ./sdm/sdm-users.yaml
+    - ./sdm/sdm-groups.yaml
+    - ./moyen-generaux/moyen-generaux-users.yaml
+    - ./moyen-generaux/moyen-generaux-groups.yaml    

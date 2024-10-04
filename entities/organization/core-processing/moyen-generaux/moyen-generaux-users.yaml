@@ -1,0 +1,44 @@
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.ayar
+spec:
+  profile:
+    displayName: ayoub Ayar
+    email: a.ayar@attijariwafa.com
+  memberOf: [moyen-generaux-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.sadki
+spec:
+  profile:
+    displayName: Younes Sadki
+    email: y.sadki@attijariwafa.com
+  memberOf: [moyen-generaux-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.bouanane
+spec:
+  profile:
+    displayName: Bouanane Soufiane
+    email: s.bouanane@attijariwafa.com
+  memberOf: [moyen-generaux-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.allami
+spec:
+  profile:
+    displayName: Allami Souhaib
+    email: s.allami@attijariwafa.com
+  memberOf: [moyen-generaux-tribe]

@@ -1,0 +1,316 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: b.belfkih
+spec:
+  profile:
+    displayName: Brahim Belfkih
+    email: b.belfkih@attijariwafa.com
+  memberOf: [selfcare-tribe,awb-sig]
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: d.atraoui
+spec:
+  profile:
+    displayName: Douae Atraoui
+    email: d.atraoui@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.mane
+spec:
+  profile:
+    displayName: Mane Alioune
+    email: a.mane@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.mouak
+spec:
+  profile:
+    displayName: Youssef Mouak
+    email: y.mouak@attijariwafa.com
+  memberOf: [selfcare-tribe]
+---  
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.ahouzi
+spec:
+  profile:
+    displayName: Adnan Ahouzi
+    email: a.ahouzi@attijariwafa.com
+  memberOf: [selfcare-tribe,awb-sig]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: at.moumen
+spec:
+  profile:
+    displayName: Moumen Ahmed Taha
+    email: at.moumen@attijariwafa.com
+  memberOf: [selfcare-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.belmellouki
+spec:
+  profile:
+    displayName: Belmellouki Hamza
+    email: h.belmellouki@attijariwafa.com
+  memberOf: [selfcare-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: t.kamil
+spec:
+  profile:
+    displayName: Kamil Taha
+    email: t.kamil@attijariwafa.com
+  memberOf: [selfcare-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: n.elalam
+spec:
+  profile:
+    displayName: El Alam Nassim
+    email: n.elalam@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.adama
+spec:
+  profile:
+    displayName: ADAMA SEYE
+    email: s.adama@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: o.khalouk
+spec:
+  profile:
+    displayName: Oussama Khallouk
+    email: o.khalouk@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.bassafou
+spec:
+  profile:
+    displayName: BASSAFOU Abderrahmane BASSAFOU
+    email: a.bassafou@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.rekik
+spec:
+  profile:
+    displayName: Haithem Rekik
+    email: h.rekik@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ot.lamrani
+spec:
+  profile:
+    displayName: Othmane Lamrani
+    email: ot.lamrani@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+
+
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: b.elmrabet
+spec:
+  profile:
+    displayName: Elmrabet Brahim
+    email: b.elmrabet@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: w.soussi
+spec:
+  profile:
+    displayName: Walid Soussi
+    email: w.soussi@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mo.asri
+spec:
+  profile:
+    displayName: Mouad Asri
+    email: mo.asri@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mo.asri
+spec:
+  profile:
+    displayName: Mouad Asri
+    email: mo.asri@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ya.abidar
+spec:
+  profile:
+    displayName: Abidar Yassine 
+    email: ya.abidar@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.zerhouni
+spec:
+  profile:
+    displayName: Abdelaziz Zerhouni 
+    email: a.zerhouni@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.elouzzani
+spec:
+  profile:
+    displayName: Abderrahmane Elouazzani
+    email: a.elouzzani@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: o.zakani
+spec:
+  profile:
+    displayName: ZAKANI OUSSAMA
+    email: o.zakani@attijariwafa.com
+  memberOf: [selfcare-tribe]  
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.jehouani
+spec:
+  profile:
+    displayName: JEHOUANI HACHIM
+    email: h.jehouani@attijariwafa.com
+  memberOf: [selfcare-tribe]   
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.sabeq
+spec:
+  profile:
+    displayName: Yassine Sabeq
+    email: y.sabeq@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.abiaba
+spec:
+  profile:
+    displayName: Amine Abiaba
+    email: a.abiaba@attijariwafa.com
+  memberOf: [selfcare-tribe]  
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.jarhni
+spec:
+  profile:
+    displayName: Jarhni Amine
+    email: a.jarhni@attijariwafa.com
+  memberOf: [selfcare-tribe]
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.errifai
+spec:
+  profile:
+    displayName: Errifai Mohamed Adib
+    email: a.errifai@attijariwafa.com
+  memberOf: [selfcare-tribe]
+#m.khalfaoui@attijariwafa.com
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.khalfaoui
+spec:
+  profile:
+    displayName: Mehdi Khalfaoui 
+    email: m.khalfaoui@attijariwafa.com
+  memberOf: [selfcare-tribe]
+
+
+

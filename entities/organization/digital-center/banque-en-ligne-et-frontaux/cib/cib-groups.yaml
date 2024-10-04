@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cib-tribe
+  title: CIB
+  description: Tribu Corporate Internet Banking
+spec:
+  type: tribe
+  profile:
+    displayName: Digital CIB
+  parent: bel-frontaux
+  children: []

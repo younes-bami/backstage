@@ -1,0 +1,173 @@
+# Archi
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.elyassem
+spec:
+  profile:
+    displayName: Houda el Yassem
+    email: h.elyassem@attijariwafa.com
+  memberOf: [vente-multicanal-tribe,awb-sig]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.elouarma
+spec:
+  profile:
+    displayName: Yassir Elouarma
+    email: y.elouarma@attijariwafa.com
+  memberOf: [vente-multicanal-tribe,catalog-tarification-tribe,awb-sig ]
+
+# IT for IT 
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.matrouh
+spec:
+  profile:
+    displayName: Mohamed Matrouh
+    email: m.matrouh@attijariwafa.com  
+  memberOf: [vente-multicanal-tribe]
+
+# Squad Bancassurance
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.fatmi
+spec:
+  profile:
+    displayName: Yassine Fatmi
+    email: y.fatmi@attijariwafa.com
+  memberOf: [bancassurance-squad, vente-multicanal-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.elouadi
+spec:
+  profile:
+    displayName: Abdelati El Ouadi
+    email: a.elouadi@attijariwafa.com
+  memberOf: [bancassurance-squad, vente-multicanal-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: moh.zerouali
+spec:
+  profile:
+    displayName:  Mohammed Zerouali
+    email: moh.zerouali@attijariwafa.com
+  memberOf: [bancassurance-squad, vente-multicanal-tribe]  
+
+# Squad Monetique
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: f.roukabi
+spec:
+  profile:
+    # Intentional no displayName for testing
+    displayName: Roukabi Faycal
+    email: f.roukabi@attijariwafa.com
+  memberOf: [monetique-squad, vente-multicanal-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: i.moustati
+spec:
+  profile:
+    displayName: Imane Moustati
+    email: i.moustati@attijariwafa.com
+  memberOf: [monetique-squad, vente-multicanal-tribe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: w.moutaouakil
+spec:
+  profile:
+    displayName: Wassima Moutaouakil
+    email: w.moutaouakil@attijariwafa.com
+  memberOf: [monetique-squad, vente-multicanal-tribe]
+
+# Squad Reprise  
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.khadem
+spec:
+  profile:
+    displayName: KHADEM Meriem
+    email: m.khadem@attijariwafa.com
+  memberOf: [reprise-squad, vente-multicanal-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: i.bahamad
+spec:
+  profile:
+    displayName: Imane Bahamad
+    email: i.bahamad@attijariwafa.com
+  memberOf: [reprise-squad, vente-multicanal-tribe]
+
+# Squad Offres
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.moukkadi
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: m.moukkadi@attijariwafa.com
+  memberOf: [offres-squad, vente-multicanal-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: k.aboulfarah
+spec:
+  profile:
+    displayName: Khadija Aboulfarah
+    email: k.aboulfarah@attijariwafa.com
+  memberOf: [offres-squad, vente-multicanal-tribe]
+
+# Squad Contribution
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.lahrabzi
+spec:
+  profile:
+    displayName: Mohamed Lahrabzi
+    email: m.lahrabzi@attijariwafa.com
+  memberOf: [contrib-squad, vente-multicanal-tribe]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: k.sahmoudi
+spec:
+  profile:
+    displayName: Khalid Sahmoudi
+    email: k.sahmoudi@attijariwafa.com
+  memberOf: [contrib-squad, vente-multicanal-tribe]
+
+
+

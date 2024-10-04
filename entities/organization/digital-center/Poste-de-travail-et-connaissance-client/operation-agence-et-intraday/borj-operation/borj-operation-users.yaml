@@ -1,0 +1,151 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.mortaji
+spec:
+  profile:
+    displayName: Adil Mortaji
+    email: a.mortaji@attijariwafa.com
+  memberOf: [borj-operation-tribe,awb-sig,gds-tribe]
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.razoki
+spec:
+  profile:
+    displayName: Hamid Razoki
+    email: h.razoki@attijariwafa.com
+  memberOf: [borj-operation-tribe,awb-sig]    
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: n.fritet
+spec:
+  profile:
+    displayName: Nabil fritet
+    email: n.fritet@attijariwafa.com
+  memberOf: [borj-operation-tribe,gds-tribe]
+
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: k.elihabi
+spec:
+  profile:
+    displayName: Karim El Ihabi
+    email: k.elihabi@attijariwafa.com
+  memberOf: [borj-operation-tribe]
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: r.saou
+spec:
+  profile:
+    displayName: Rachid Saou 
+    email: r.saou@attijariwafa.com
+  memberOf: [borj-operation-tribe]
+
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.elkhalloufi
+spec:
+  profile:
+    displayName: Yassir El khalloufi
+    email: y.elkhalloufi@attijariwafa.com
+  memberOf: [borj-operation-tribe]
+
+
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.ammar
+spec:
+  profile:
+    displayName: Ammar Alaaeddin
+    email: a.ammar@attijariwafa.com
+  memberOf: [borj-operation-tribe]    
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.sall
+spec:
+  profile:
+    displayName: Sall Massaer
+    email: m.sall@attijariwafa.com
+  memberOf: [borj-operation-tribe,gds-tribe] 
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: b.manneta
+spec:
+  profile:
+    displayName: Manneta Brahim
+    email: b.manneta@attijariwafa.com
+  memberOf: [borj-operation-tribe,gds-tribe] 
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.smari
+spec:
+  profile:
+    displayName: Smari Abdennaceur
+    email: a.smari@attijariwafa.com
+  memberOf: [borj-operation-tribe,gds-tribe] 
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: i.filali
+spec:
+  profile:
+    displayName: Filali Ismail
+    email: i.filali@attijariwafa.com
+  memberOf: [borj-operation-tribe,gds-tribe] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

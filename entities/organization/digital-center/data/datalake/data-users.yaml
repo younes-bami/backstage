@@ -1,0 +1,281 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.berkaoui
+spec:
+  profile:
+    displayName: Abdellah Berkaoui
+    email: a.berkaoui@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad,awb-sig]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: z.mesaoudi
+spec:
+  profile:
+    displayName: Mesaoudi Zakaria
+    email: z.mesaoudi@attijariwafa.com
+  memberOf: [datalake-squad]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.gahi
+spec:
+  profile:
+    displayName: Youssef Gahi
+    email: y.gahi@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.gouali
+spec:
+  profile:
+    displayName: Gou-Ali Abdelatif 
+    email: a.gouali@attijariwafa.com
+  memberOf: [datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.mouatacim
+spec:
+  profile:
+    displayName: Mouatacim Mohamed
+    email: m.mouatacim@attijariwafa.com
+  memberOf: [datalake-squad]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.mohamed
+spec:
+  profile:
+    displayName: Sefraoui Mohamed
+    email: m.sefraoui@attijariwafa.com
+  memberOf: [datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.qotaibah
+spec:
+  profile:
+    displayName: Qotaibah Yousra
+    email: y.qotaibah@attijariwafa.com
+  memberOf: [datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: w.mouradi
+spec:
+  profile:
+    displayName: Mouradi Walid
+    email: w.mouradi@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: r.zyane
+spec:
+  profile:
+    displayName: Rania Zyane
+    email: r.zyane@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ham.benjelloun
+spec:
+  profile:
+    displayName: Benjelloun Hamza
+    email: ham.benjelloun@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.mikou
+spec:
+  profile:
+    displayName: Mikou Meriame
+    email: m.mikou@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: t.zaradatch
+spec:
+  profile:
+    displayName: Zaradacht Taifour
+    email: t.zaradatch@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.abouhane
+spec:
+  profile:
+    displayName: Mehdi Abouhane
+    email: m.abouhane@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sar.benjelloun
+spec:
+  profile:
+    displayName: Sarah Benjelloun
+    email: sar.benjelloun@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.elmehdielaissi
+spec:
+  profile:
+    displayName: Mohamed El Mehdi El Aissi
+    email: m.elmehdielaissi@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.labyad
+spec:
+  profile:
+    displayName: Ayoub Labyad
+    email: a.labyad@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sa.loukili
+spec:
+  profile:
+    displayName: Saida Loukili
+    email: sa.loukili@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: z.azelmad
+spec:
+  profile:
+    displayName: Zakaria Azelmad
+    email: z.azelmad@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.boumaaza
+spec:
+  profile:
+    displayName: Zakaria Azelmad
+    email: a.boumaaza@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.bellahcen
+spec:
+  profile:
+    displayName: Bel-lahcen Marwane
+    email: m.bellahcen@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.boumaaza
+spec:
+  profile:
+    displayName: Boumaaza Ayman 
+    email: a.boumaaza@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: c.koffeto
+spec:
+  profile:
+    displayName: KOFFETO Cedric
+    email: c.koffeto@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]  
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.elbelkacemi
+spec:
+  profile:
+    displayName: ELBELKACEMI Salma
+    email: s.elbelkacemi@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]  
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.taali
+spec:
+  profile:
+    displayName: Houda Taali
+    email: h.taali@attijariwafa.com
+  memberOf: [data-tribe,datalake-squad]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ch.elhari
+spec:
+  profile:
+    displayName: Chadi Elhardi
+    email: ch.elhari@attijariwafa.com 
+  memberOf: [data-tribe,datalake-squad]
+
+# 
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: z.salim
+spec:
+  profile:
+    displayName: SALIM ZAKARIA
+    email: z.salim@attijariwafa.com
+
+  memberOf: [data-tribe,datalake-squad]  

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: compliance-tribe
+  title: Compliance
+  description: compliance
+spec:
+  type: tribe
+  profile:
+    displayName: Compliance
+  parent: core-processing
+  children: []
+

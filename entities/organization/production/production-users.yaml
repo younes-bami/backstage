@@ -1,0 +1,264 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.sadik
+spec:
+  profile:
+    displayName: Amine Sadik
+    email: a.sadik@attijariwafa.com
+  memberOf: [awb-sig, production]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: h.glioui
+spec:
+  profile:
+    displayName: Hamza Glioui
+    email: h.glioui@attijariwafa.com
+  memberOf: [production]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.larhzil
+spec:
+  profile:
+    displayName: Larhzil Aali
+    email: a.larhzil@attijariwafa.com
+  memberOf: [production]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: o.ndiaye
+spec:
+  profile:
+    displayName: Ndiaye Cheikhou Oumar
+    email: o.ndiaye@attijariwafa.com
+  memberOf: [production]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.dia
+spec:
+  profile:
+    displayName: Dia Mamadou Lamine
+    email: m.dia@attijariwafa.com
+  memberOf: [production]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mo.khattabi
+spec:
+  profile:
+    displayName: Khattabi Mohamed
+    email: mo.khattabi@attijariwafa.com
+  memberOf: [production]  
+
+## TEAM PROD 2 
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: z.ajafar
+spec:
+  profile:
+    displayName: Ajafar zouheir
+    email: z.ajafar@attijariwafa.com
+  memberOf: [production]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: g.eljaouhari
+spec:
+  profile:
+    displayName: El Jaouahri Ghalia
+    email: g.eljaouhari@attijariwafa.com
+  memberOf: [production]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.haddane
+spec:
+  profile:
+    displayName: Haddane Abdessamad
+    email: a.haddane@attijariwafa.com
+  memberOf: [production]    
+
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ya.lachgar
+spec:
+  profile:
+    displayName: Lachgar Yassine
+    email: ya.lachgar@attijariwafa.com
+  memberOf: [production]   
+
+## TEAM PROD 
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: z.elhamdaoui
+spec:
+  profile:
+    displayName: Zakaria El Hamdaoui
+    email: z.elhamdaoui@attijariwafa.com
+  memberOf: [production]    
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: b.benkhadaj
+spec:
+  profile:
+    displayName: Ben Khadaj Brahim
+    email: b.benkhadaj@attijariwafa.com
+  memberOf: [production]   
+ 
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.jamil
+spec:
+  profile:
+    displayName: Jamil Yassine
+    email: y.jamil@attijariwafa.com
+  memberOf: [production]    
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: y.fahli
+spec:
+  profile:
+    displayName: Fahli Youssef
+    email: y.fahli@attijariwafa.com
+  memberOf: [production]      
+
+# Equipe Industrialisation
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: c.ehola
+spec:
+  profile:
+    displayName: Cesaire Ehola Bruce
+    email: c.ehola@attijariwafa.com
+  memberOf: [indus-team]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.taoudi
+spec:
+  profile:
+    displayName: TAOUDI ABDERRAHIM
+    email: a.taoudi@attijariwafa.com
+  memberOf: [indus-team]  
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.yao
+spec:
+  profile:
+    displayName: Alberic abo joel YAO
+    email: a.yao@attijariwafa.com
+  memberOf: [indus-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: hay.amine
+spec:
+  profile:
+    displayName: Amine Hayat
+    email: hay.amine@attijariwafa.com
+  memberOf: [indus-team]  
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.ouach 
+spec:
+  profile:
+    displayName: Ali Ouach
+    email: a.ouach@attijariwafa.com 
+  memberOf: [indus-team]   
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: m.bassit
+spec:
+  profile:
+    displayName: Bassit Maryam
+    email: m.bassit@attijariwafa.com
+  memberOf: [indus-team]    
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.laimina
+spec:
+  profile:
+    displayName: LAIMINA AMINE
+    email: a.laimina@attijariwafa.com
+  memberOf: [indus-team]        
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: a.markouche
+spec:
+  profile:
+    displayName: Markouche Adil
+    email: a.markouche@attijariwafa.com
+  memberOf: [indus-team]        
+
+
+# Architects production
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: k.moutawakil
+spec:
+  profile:
+    displayName: Khalid Moutawakil
+    email: k.moutawakil@attijariwafa.com
+  memberOf: [awb-sig,archi-prod]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: s.najmi
+spec:
+  profile:
+    displayName: Samir Najmi
+    email: s.najmi@attijariwafa.com
+  memberOf: [awb-sig,archi-prod]
