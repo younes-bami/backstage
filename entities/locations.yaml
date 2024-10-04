@@ -31,7 +31,7 @@ spec:
   rules:
     - allow: [Component,API,Resource,Location]
   targets:
-    - https://raw.githubusercontent.com/younes-bami/backstage/refs/heads/master/cib/catalog-info.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/refs/heads/master/entities/cib/catalog-info.yaml
     #- https://gitlab.udd.attijariwafa.net/vente-multicanal/crm-service-catalog/-/blob/main/catalog-info.yaml
     #- https://gitlab.udd.attijariwafa.net/vente-multicanal/vente-service-catalog/-/blob/main/catalog-info.yaml
     #- https://gitlab.udd.attijariwafa.net/arrete-des-comptes/arrco-catalog/-/blob/main/catalog-info.yaml
