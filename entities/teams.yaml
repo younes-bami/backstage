@@ -22,7 +22,9 @@ metadata:
 spec:
   type: team
   parent: team-developpement
-  children: []  # Ajout de la propriété children
+  children:   # Ajout de la propriété children
+    - user:default/alice  # Ajout du namespace
+    - user:default/bob  # Ajout du namespace   
   members:
     - user:default/alice  # Ajout du namespace
     - user:default/bob  # Ajout du namespace
@@ -36,7 +38,9 @@ metadata:
 spec:
   type: team
   parent: team-developpement
-  children: []  # Ajout de la propriété children
+  children:
+    - user:default/charlie  # Ajout du namespace
+    - user:default/dave  # Ajout du namespace
   members:
     - user:default/charlie  # Ajout du namespace
     - user:default/dave  # Ajout du namespace
@@ -50,21 +54,25 @@ metadata:
 spec:
   type: team
   parent: company
-  children: []  # Ajout de la propriété children
+  children:
+    - user:default/john-doe  # Ajout du namespace
+    - user:default/jane-doe  # Ajout du namespace
   members:
-    - user:john-doe
-    - user:jane-doe
-
+    - user:default/john-doe  # Ajout du namespace
+    - user:default/jane-doe  # Ajout du namespace
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: team-comptes-courants
+  description: Équipe responsable des comptes courants
   namespace: default
-  description: L'équipe responsable de la gestion des comptes courants.
 spec:
   type: team
-  parent: team-api-comptes
+  parent: company  # Parent défini
+  children:
+    - user:default/john.doe  # Ajout du namespace
+    - user:default/jane.doe  # Ajout du namespace
   members:
-    - user:john-doe
-    - user:jane-doe
+    - user:default/john.doe  # Ajout du namespace
+    - user:default/jane.doe  # Ajout du namespace

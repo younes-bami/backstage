@@ -2,7 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: api-gestion-comptes
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs
   description: API pour la gestion des opérations sur les comptes courants.
+  links:
+    - url: 'http://localhost:3010/api-docs/'
+      title: Swagger API Docs
+      icon: docs
 spec:
   type: api
   owner: team-api-comptes
