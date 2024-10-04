@@ -1,26 +1,26 @@
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: template-location
-spec:
-  targets:
-    - https://gitlab.udd.attijariwafa.net/dev-portal/backstage-templates/-/blob/main/catalog-info.yaml
+#apiVersion: backstage.io/v1alpha1
+#kind: Location
+#metadata:
+#  name: template-location
+#spec:
+  #targets:
+   # - https://gitlab.udd.attijariwafa.net/dev-portal/backstage-templates/-/blob/main/catalog-info.yaml
 ---
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: docs-location
-spec:
-  targets:
-    - https://gitlab.udd.attijariwafa.net/devops/devsecops-doc/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/dev-portal/backstage-app/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/dsa/dsa-service-catalog/-/blob/main/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/datalake/post-mortem/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/datalake/datalake-doc/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/devops/devsecops-kpis-doc/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/datalake/oncall-reports/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/mo.Aittaleb/post-mortem-doc/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/devops/portaildev-doc/-/blob/master/catalog-info.yaml
+#apiVersion: backstage.io/v1alpha1
+#kind: Location
+##metadata:
+ # name: docs-location
+#spec:
+#  targets:
+ #   - https://gitlab.udd.attijariwafa.net/devops/devsecops-doc/-/blob/master/catalog-info.yaml
+  #  - https://gitlab.udd.attijariwafa.net/dev-portal/backstage-app/-/blob/master/catalog-info.yaml
+   # - https://gitlab.udd.attijariwafa.net/dsa/dsa-service-catalog/-/blob/main/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/datalake/post-mortem/-/blob/master/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/datalake/datalake-doc/-/blob/master/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/devops/devsecops-kpis-doc/-/blob/master/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/datalake/oncall-reports/-/blob/master/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/mo.Aittaleb/post-mortem-doc/-/blob/master/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/devops/portaildev-doc/-/blob/master/catalog-info.yaml
 ---
 
 apiVersion: backstage.io/v1alpha1
@@ -31,14 +31,14 @@ spec:
   rules:
     - allow: [Component,API,Resource,Location]
   targets:
-    - https://gitlab.udd.attijariwafa.net/EBK/cib-service-catalog/-/blob/main/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/vente-multicanal/crm-service-catalog/-/blob/main/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/vente-multicanal/vente-service-catalog/-/blob/main/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/arrete-des-comptes/arrco-catalog/-/blob/main/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/hub-de-paiement/payment-service-catalog/-/blob/main/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/EBK/eer-service-catalog/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/vente-multicanal/catalogue/catalog-tarification-facturation-service-catalog/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/loan-service/loan-catalog-service/-/blob/master/catalog-info.yaml
-    - https://gitlab.udd.attijariwafa.net/smac/smac-catalog-service/-/blob/master/catalog-info.yaml
+    - https://raw.githubusercontent.com/younes-bami/backstage/refs/heads/master/cib/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/vente-multicanal/crm-service-catalog/-/blob/main/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/vente-multicanal/vente-service-catalog/-/blob/main/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/arrete-des-comptes/arrco-catalog/-/blob/main/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/hub-de-paiement/payment-service-catalog/-/blob/main/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/EBK/eer-service-catalog/-/blob/master/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/vente-multicanal/catalogue/catalog-tarification-facturation-service-catalog/-/blob/master/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/loan-service/loan-catalog-service/-/blob/master/catalog-info.yaml
+    #- https://gitlab.udd.attijariwafa.net/smac/smac-catalog-service/-/blob/master/catalog-info.yaml
 
 
