@@ -5,13 +5,13 @@ metadata:
   name: cib-tribe
   title: CIB
   description: Tribu Corporate Internet Banking
+  links: 
+    - url: http://localhost:3011/dashboard/1
+      title: Uptime
+      icon: dashboard
 spec:
   type: tribe
   profile:
     displayName: Digital CIB
   parent: bel-frontaux
   children: []
-  links: 
-    - url: http://localhost:3011/dashboard/1
-      title: Uptime
-      icon: dashboard
