@@ -18,6 +18,9 @@ metadata:
     - url: https://jenkins.udd.attijariwafa.net/view/EBK_VIEW/job/EBK_Api/
       title: Pipeline Jenkins
       icon: dashboard
+    - url: http://localhost:3011/dashboard/2
+      title: Uptime
+      icon: dashboard
 spec:
   type: openapi
   lifecycle: production
@@ -45,6 +48,9 @@ metadata:
     - url: https://jenkins.udd.attijariwafa.net/view/EBK_VIEW/job/EBK_Api/
       title: Pipeline Jenkins
       icon: dashboard
+    - url: http://localhost:3011/dashboard/3
+      title: Uptime
+      icon: dashboard
 spec:
   type: openapi
   lifecycle: production
@@ -71,6 +77,9 @@ metadata:
       icon: dashboard
     - url: https://jenkins.udd.attijariwafa.net/view/EBK_VIEW/job/EBK_Api/
       title: Pipeline Jenkins
+      icon: dashboard
+    - url: http://localhost:3011/dashboard/4
+      title: Uptime
       icon: dashboard
 spec:
   type: openapi
