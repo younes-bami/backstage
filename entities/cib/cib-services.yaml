@@ -23,6 +23,9 @@ metadata:
     - url: https://172.29.8.144/
       title: APM
       icon: dashboard
+    - url: http://localhost:3011/dashboard/2
+      title: Uptime
+      icon: dashboard
 spec:
   type: service
   owner: cib-tribe
@@ -51,6 +54,9 @@ metadata:
     - url: https://172.29.8.144/
       title: APM
       icon: dashboard
+    - url: http://localhost:3011/dashboard/4
+      title: Uptime
+      icon: dashboard
 spec:
   type: service
   owner: cib-tribe
@@ -76,8 +82,8 @@ metadata:
   name: api-mto
   description: Service Spring Boot
   links:
-    - url: https://172.29.8.144/
-      title: APM
+    - url: http://localhost:3011/dashboard/4
+      title: Uptime
       icon: dashboard
 spec:
   type: service
