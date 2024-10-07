@@ -9,8 +9,6 @@ metadata:
     gitlab.com/project-slug: 'EBK/BEL-micro-arch'
     sonarqube.org/project-key: ma.awb.ebk.bel:microArch
     cachet.io/component-id: '12'
-    domain.name: AWB-SIG
-    subdomain.name: Digital Center
   tags:
     - selfcare
     - rest
@@ -42,8 +40,6 @@ metadata:
     gitlab.com/project-slug: 'BEL-micro-arch'
     sonarqube.org/project-key: ma.awb.ebk.bel:microArch
     cachet.io/component-id: '13'
-    domain.name: AWB-SIG
-    subdomain.name: Digital Center
   tags:
     - selfcare
     - rest
@@ -75,8 +71,7 @@ metadata:
     gitlab.com/project-slug: 'BEL-micro-arch'
     sonarqube.org/project-key: ma.awb.ebk.bel:microArch
     cachet.io/component-id: '14'
-    domain.name: AWB-SIG
-    subdomain.name: Digital Center
+
   tags:
     - selfcare
     - rest
