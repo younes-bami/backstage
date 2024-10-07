@@ -10,7 +10,7 @@ spec:
   profile:
     displayName: Digital Center
     email: dc.sig@attijariwafa.com
-  children: []
+  children: [bel-frontaux,catalog-tarification-tribe,ata-tribe,devsecops-tribe,distribution-facturation-et-paiement-groups-tribe,ecm-tribe,facturation-tribe,Poste-de-travail-et-connaissance-client]
 
 ---
 apiVersion: backstage.io/v1alpha1
