@@ -5,7 +5,7 @@ metadata:
   title: ecm
   description: ecm
 spec:
-  type: tribe
+  type: squad
   profile:
     displayName: Enterprise Content Management
     email: ecm@attijariwafa.com

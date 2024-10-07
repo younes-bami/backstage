@@ -6,7 +6,7 @@ metadata:
   title: Catalogue et Tarification
   description: Equipe Catalogue et Tarification
 spec:
-  type: tribe
+  type: squad
   profile:
     displayName: Catalogue et Tarification
     email: sig.borj-ref@attijariwafa.com

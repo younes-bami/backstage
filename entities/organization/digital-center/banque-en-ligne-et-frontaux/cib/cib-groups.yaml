@@ -10,7 +10,7 @@ metadata:
       title: Uptime
       icon: dashboard
 spec:
-  type: tribe
+  type: squad
   profile:
     displayName: Digital CIB
   parent: bel-frontaux

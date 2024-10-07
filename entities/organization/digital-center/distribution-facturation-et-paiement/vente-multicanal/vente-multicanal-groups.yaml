@@ -5,7 +5,7 @@ metadata:
   title: Vente Multicanale
   description: Distribution Multicanal, facturation et paiement
 spec:
-  type: tribe
+  type: squad
   profile:
     displayName: Vente Multicanale
     email: team-vente@example.com

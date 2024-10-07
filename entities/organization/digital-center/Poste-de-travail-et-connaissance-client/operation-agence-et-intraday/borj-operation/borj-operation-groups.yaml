@@ -5,7 +5,7 @@ metadata:
   title: Opération Agence & Intraday
   description: Equipe Opération Agence & Intraday
 spec:
-  type: tribe
+  type: squad
   profile:
     displayName: Opération Agence & Intraday
     email: sig.borj-operation@attijariwafa.com

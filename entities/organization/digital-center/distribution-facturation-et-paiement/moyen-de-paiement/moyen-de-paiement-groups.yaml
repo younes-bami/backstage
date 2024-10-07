@@ -5,7 +5,7 @@ metadata:
   title: Moyen de Paiement
   description: Moyen de Paiement
 spec:
-  type: tribe
+  type: squad
   profile:
     displayName: Moyen de Paiement
     email: team-moypay@example.com

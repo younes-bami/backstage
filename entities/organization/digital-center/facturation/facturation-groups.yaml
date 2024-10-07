@@ -6,7 +6,7 @@ metadata:
   title: facturation
   description: facturation
 spec:
-  type: tribe
+  type: squad
   profile:
     displayName: facturation
     email: facturation@attijariwafa.com
