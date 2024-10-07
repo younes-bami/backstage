@@ -8,6 +8,9 @@ metadata:
   annotations:
     gitlab.com/project-slug: 'EBK/BEL-micro-arch'
     sonarqube.org/project-key: ma.awb.ebk.bel:microArch
+    cachet.io/component-id: '12'
+    domain.name: AWB-SIG
+    subdomain.name: Digital Center
   tags:
     - selfcare
     - rest
@@ -38,6 +41,9 @@ metadata:
   annotations:
     gitlab.com/project-slug: 'BEL-micro-arch'
     sonarqube.org/project-key: ma.awb.ebk.bel:microArch
+    cachet.io/component-id: '13'
+    domain.name: AWB-SIG
+    subdomain.name: Digital Center
   tags:
     - selfcare
     - rest
@@ -68,9 +74,13 @@ metadata:
   annotations:
     gitlab.com/project-slug: 'BEL-micro-arch'
     sonarqube.org/project-key: ma.awb.ebk.bel:microArch
+    cachet.io/component-id: '14'
+    domain.name: AWB-SIG
+    subdomain.name: Digital Center
   tags:
     - selfcare
     - rest
+    - critical
   links:
     - url: http://sonar.udd.attijariwafa.net:9000/code?id=ma.awb%3Amicroarch
       title: Sonar
