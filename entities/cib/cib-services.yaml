@@ -19,6 +19,8 @@ kind: Component
 metadata:
   name: api-ee
   description: Service Spring Boot API EE
+  annotations:    
+      cachet.io/component-id: '12'
   links:
     - url: https://172.29.8.144/
       title: APMS
@@ -50,6 +52,8 @@ kind: Component
 metadata:
   name: api-atc
   description: Service Spring Boot
+  annotations:    
+      cachet.io/component-id: '13'
   links:
     - url: https://172.29.8.144/
       title: APM
@@ -81,6 +85,8 @@ kind: Component
 metadata:
   name: api-mto
   description: Service Spring Boot
+  annotations:    
+      cachet.io/component-id: '14'
   links:
     - url: http://localhost:3011/dashboard/4
       title: Uptime
