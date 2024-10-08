@@ -3,12 +3,12 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: api-ee
-  title: API Enterprise Banking
+  title: API Enterprise Bankings
   description: Enterprise Banking Self Service API
   annotations:
     gitlab.com/project-slug: 'EBK/BEL-micro-arch'
-    sonarqube.org/project-key: ma.awb.ebk.bel:microArch
-    cachet.io/component-id: 12
+    sonarqube.org/project-key: 'ma.awb.ebk.bel:microArch'
+    cachet.io/component-id: '12'
   tags:
     - selfcare
     - rest
