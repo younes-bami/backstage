@@ -8,7 +8,7 @@ metadata:
   annotations:
     gitlab.com/project-slug: 'EBK/BEL-micro-arch'
     sonarqube.org/project-key: ma.awb.ebk.bel:microArch
-    cachet.io/component-id: '12'
+    cachet.io/component-id: 12
   tags:
     - selfcare
     - rest
