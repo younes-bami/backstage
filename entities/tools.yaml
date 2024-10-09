@@ -11,6 +11,8 @@ metadata:
     - git
   sharing:
     - "*"
+  annotations:    
+      cachet.io/component-id: '1'
 spec:
   type: tool
   owner: devsecops-tribe
