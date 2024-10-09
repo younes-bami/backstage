@@ -19,8 +19,7 @@ kind: Component
 metadata:
   name: api-ee
   description: Service Spring Boot API EEs
-  annotations:    
-      cachet.io/component-id: '12'
+
   links:
     - url: https://172.29.8.144/
       title: APMS
